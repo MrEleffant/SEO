@@ -1,0 +1,1869 @@
+{
+ "https://keywordtool.io": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://keywordtool.io/fr"
+  ]
+ },
+ "https://ads.google.com": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://ads.google.com/intl/fr_fr/home/tools/keyword-planner/"
+  ]
+ },
+ "https://ahrefs.com": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://ahrefs.com/fr/keyword-generator"
+  ]
+ },
+ "https://www.blogdumoderateur.com": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://www.blogdumoderateur.com/tools/google-keyword-planner/"
+  ]
+ },
+ "https://fr.semrush.com": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://fr.semrush.com/analytics/keywordmagic/"
+  ]
+ },
+ "https://www.seoquantum.com": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://www.seoquantum.com/keywords-finder"
+  ]
+ },
+ "https://www.larousse.fr": {
+  "motsClesDetectes": [
+   "keyword",
+   "Autour de",
+   "Claude",
+   "Capital",
+   "Will",
+   "Access",
+   "Scorpion",
+   "Rex",
+   "Medium",
+   "Halo",
+   "Target"
+  ],
+  "liensExacts": [
+   "https://www.larousse.fr/dictionnaires/anglais-francais/keyword/996108",
+   "https://www.larousse.fr/dictionnaires/francais/autour_de/6881#:~:text=d'un%20livre.-,autour%20de%20pr%C3%A9p.,(quelquefois%20renforc%C3%A9%20par%20tout).",
+   "https://www.larousse.fr/encyclopedie/personnage/Claude_I_er/113754",
+   "https://www.larousse.fr/dictionnaires/francais/capital/12898",
+   "https://www.larousse.fr/dictionnaires/anglais-francais/will/624355",
+   "https://www.larousse.fr/dictionnaires/anglais-francais/access/560855",
+   "https://www.larousse.fr/encyclopedie/vie-sauvage/scorpion/184018",
+   "https://www.larousse.fr/dictionnaires/francais/rex/69192",
+   "https://www.larousse.fr/dictionnaires/francais/m%C3%A9dium/50165",
+   "https://www.larousse.fr/dictionnaires/francais/halo/38927",
+   "https://www.larousse.fr/dictionnaires/anglais-francais/target/617183"
+  ]
+ },
+ "https://semji.com": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://semji.com/fr/blog/les-meilleurs-outils-gratuits-pour-travailler-les-mots-cles-de-google-suggest/"
+  ]
+ },
+ "https://fr.wikipedia.org": {
+  "motsClesDetectes": [
+   "H",
+   "Claude",
+   "Plus belle la vie",
+   "Koh Lanta",
+   "Demain nous appartient",
+   "Capital",
+   "Pokémon",
+   "The Voice",
+   "Roger",
+   "Will",
+   "Simon",
+   "Sam",
+   "Messe",
+   "En famille",
+   "Access",
+   "Un si grand soleil",
+   "Eden",
+   "Friends",
+   "Next",
+   "Scorpion",
+   "Top chef",
+   "Nina",
+   "Rex",
+   "Malcolm",
+   "Boris",
+   "Urgences",
+   "Desperate Housewives",
+   "Medium",
+   "Dragon Ball Z",
+   "Sherlock",
+   "Zip Zip",
+   "Le Renard",
+   "911",
+   "HPI",
+   "Halo",
+   "Toc Toc ",
+   "Target",
+   "Forever",
+   "Ninjago",
+   "Leonardo",
+   "Riverdale",
+   "Peppa Pig",
+   "La Flamme",
+   "Et alors ",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://fr.wikipedia.org/wiki/H_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/H_(lettre)",
+   "https://fr.wikipedia.org/wiki/Claude_(empereur_romain)",
+   "https://fr.wikipedia.org/wiki/Claude",
+   "https://fr.wikipedia.org/wiki/Plus_belle_la_vie",
+   "https://fr.wikipedia.org/wiki/Koh-Lanta",
+   "https://fr.wikipedia.org/wiki/Demain_nous_appartient",
+   "https://fr.wikipedia.org/wiki/Capital",
+   "https://fr.wikipedia.org/wiki/Pok%C3%A9mon",
+   "https://fr.wikipedia.org/wiki/The_Voice_:_La_Plus_Belle_Voix",
+   "https://fr.wikipedia.org/wiki/Roger",
+   "https://fr.wikipedia.org/wiki/Roger_(aviation)",
+   "https://fr.wikipedia.org/wiki/Will",
+   "https://fr.wikipedia.org/wiki/Simon_(pr%C3%A9nom)",
+   "https://fr.wikipedia.org/wiki/Simon_(jeu)",
+   "https://fr.wikipedia.org/wiki/Sam_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/C%27est_qui_Sam_%3F",
+   "https://fr.wikipedia.org/wiki/Messe",
+   "https://fr.wikipedia.org/wiki/Messe_(musique)",
+   "https://fr.wikipedia.org/wiki/En_famille_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Microsoft_Access",
+   "https://fr.wikipedia.org/wiki/Un_si_grand_soleil",
+   "https://fr.wikipedia.org/wiki/%C3%89den",
+   "https://fr.wikipedia.org/wiki/Friends",
+   "https://fr.wikipedia.org/wiki/Next_(entreprise)",
+   "https://fr.wikipedia.org/wiki/Next_(%C3%A9mission_de_t%C3%A9l%C3%A9vision)",
+   "https://fr.wikipedia.org/wiki/Scorpion_(astrologie)",
+   "https://fr.wikipedia.org/wiki/Top_Chef",
+   "https://fr.wikipedia.org/wiki/Nina_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e,_2014)",
+   "https://fr.wikipedia.org/wiki/La_Ni%C3%B1a_(m%C3%A9t%C3%A9orologie)",
+   "https://fr.wikipedia.org/wiki/Rex,_chien_flic",
+   "https://fr.wikipedia.org/wiki/Rex",
+   "https://fr.wikipedia.org/wiki/Malcolm_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Boris_Johnson",
+   "https://fr.wikipedia.org/wiki/Boris",
+   "https://fr.wikipedia.org/wiki/Urgences_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Urgences",
+   "https://fr.wikipedia.org/wiki/Desperate_Housewives",
+   "https://fr.wikipedia.org/wiki/M%C3%A9dium_(spiritisme)",
+   "https://fr.wikipedia.org/wiki/Medium_(site_web)",
+   "https://fr.wikipedia.org/wiki/Dragon_Ball_Z",
+   "https://fr.wikipedia.org/wiki/Sherlock_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Sherlock_Holmes",
+   "https://fr.wikipedia.org/wiki/Zip_Zip",
+   "https://fr.wikipedia.org/wiki/Renard",
+   "https://fr.wikipedia.org/wiki/Renard_roux",
+   "https://fr.wikipedia.org/wiki/9-1-1_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/911_(num%C3%A9ro_d%27appel_d%27urgence)",
+   "https://fr.wikipedia.org/wiki/HPI_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Halo_(s%C3%A9rie_de_jeux_vid%C3%A9o)",
+   "https://fr.wikipedia.org/wiki/Toc_toc",
+   "https://fr.wikipedia.org/wiki/Target_Corporation",
+   "https://fr.wikipedia.org/wiki/Forever_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Ninjago_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Leonardo_(football)",
+   "https://fr.wikipedia.org/wiki/Leonardo_DiCaprio",
+   "https://fr.wikipedia.org/wiki/Riverdale_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Peppa_Pig",
+   "https://fr.wikipedia.org/wiki/La_Flamme_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/Et_alors_!_(chanson)",
+   "https://fr.wikipedia.org/wiki/This_Is_Us"
+  ]
+ },
+ "https://www.allocine.fr": {
+  "motsClesDetectes": [
+   "H",
+   "Demain nous appartient",
+   "Ici tout commence",
+   "Will",
+   "Sam",
+   "En famille",
+   "Access",
+   "Un si grand soleil",
+   "Eden",
+   "Friends",
+   "Scorpion",
+   "Nina",
+   "Malcolm",
+   "Urgences",
+   "Desperate Housewives",
+   "Medium",
+   "Dragon Ball Z",
+   "Sherlock",
+   "911",
+   "HPI",
+   "Halo",
+   "Toc Toc ",
+   "Target",
+   "Riverdale",
+   "La Flamme",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=669.html",
+   "https://www.allocine.fr/article/fichearticle_gen_carticle=1000000128.html",
+   "https://www.allocine.fr/article/fichearticle_gen_carticle=1000000185.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=19333.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=18715.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=10847.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=22824.html",
+   "https://www.allocine.fr/article/fichearticle_gen_carticle=1000000207.html",
+   "https://www.allocine.fr/film/fichefilm_gen_cfilm=222008.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=49.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=17288.html",
+   "https://www.allocine.fr/film/fichefilm_gen_cfilm=49272.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=16863.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=52.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=96.html",
+   "https://www.allocine.fr/series/ficheserie-96/saisons/",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=221.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=263.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=3461.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=4528.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=22123.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=25616.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=12209.html",
+   "https://www.allocine.fr/film/fichefilm_gen_cfilm=250173.html",
+   "https://www.allocine.fr/film/fichefilm_gen_cfilm=178074.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=18543.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=25777.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=19992.html"
+  ]
+ },
+ "https://www.netflix.com": {
+  "motsClesDetectes": [
+   "H",
+   "Friends",
+   "Toc Toc ",
+   "Riverdale"
+  ],
+  "liensExacts": [
+   "https://www.netflix.com/fr/title/81270678",
+   "https://www.netflix.com/ca-fr/title/80241387",
+   "https://www.netflix.com/fr/title/70153404",
+   "https://www.netflix.com/fr/title/80233962",
+   "https://www.netflix.com/fr/title/80133311",
+   "https://www.netflix.com/ca-fr/title/80133311"
+  ]
+ },
+ "https://www.programme-tv.net": {
+  "motsClesDetectes": [
+   "H",
+   "Plus belle la vie",
+   "Ici tout commence",
+   "En famille",
+   "Un si grand soleil",
+   "Friends",
+   "Top chef",
+   "Malcolm",
+   "Desperate Housewives",
+   "Zip Zip",
+   "Riverdale",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.programme-tv.net/programme/series-tv/r370-h/",
+   "https://www.programme-tv.net/programme/divertissement/r206041-plus-belle-la-vie/",
+   "https://www.programme-tv.net/programme/series-tv/r1549502939-ici-tout-commence/",
+   "https://www.programme-tv.net/programme/series-tv/r42887-en-famille/",
+   "https://www.programme-tv.net/programme/divertissement/r1549439305-un-si-grand-soleil/",
+   "https://www.programme-tv.net/programme/series-tv/r1240-friends/",
+   "https://www.programme-tv.net/news/tv/311377-top-chef-2023-date-de-diffusion-jury-epreuves-tout-savoir-sur-la-saison-14/",
+   "https://www.programme-tv.net/evenements/top-chef/",
+   "https://www.programme-tv.net/programme/series-tv/r198-malcolm/",
+   "https://www.programme-tv.net/programme/series-tv/r908-desperate-housewives/",
+   "https://www.programme-tv.net/programme/series-tv/r295382-zip-zip/",
+   "https://www.programme-tv.net/news/series-tv/306851-riverdale-saison-7-netflix-date-de-sortie-casting-intrigues-toutes-les-infos-sur-la-saison-a-venir/",
+   "https://www.programme-tv.net/programme/series-tv/r1549240441-riverdale/",
+   "https://www.programme-tv.net/news/series-tv/302535-this-is-us-y-aura-t-il-une-saison-7-de-la-serie/"
+  ]
+ },
+ "https://fr.wiktionary.org": {
+  "motsClesDetectes": [
+   "H",
+   "Autour de",
+   "Claude",
+   "Roger",
+   "Sam",
+   "Medium",
+   "Halo",
+   "Target",
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://fr.wiktionary.org/wiki/h",
+   "https://fr.wiktionary.org/wiki/autour_de",
+   "https://fr.wiktionary.org/wiki/Claude",
+   "https://fr.wiktionary.org/wiki/Roger",
+   "https://fr.wiktionary.org/wiki/Sam",
+   "https://fr.wiktionary.org/wiki/m%C3%A9dium",
+   "https://fr.wiktionary.org/wiki/halo",
+   "https://fr.wiktionary.org/wiki/target",
+   "https://fr.wiktionary.org/wiki/et_alors"
+  ]
+ },
+ "https://television.telerama.fr": {
+  "motsClesDetectes": [
+   "H"
+  ],
+  "liensExacts": [
+   "https://television.telerama.fr/tele/serie/h-1-35636332-saison4.php"
+  ]
+ },
+ "https://www.linternaute.fr": {
+  "motsClesDetectes": [
+   "Autour de"
+  ],
+  "liensExacts": [
+   "https://www.linternaute.fr/dictionnaire/fr/definition/autour-de/"
+  ]
+ },
+ "https://dictionnaire.lerobert.com": {
+  "motsClesDetectes": [
+   "Autour de"
+  ],
+  "liensExacts": [
+   "https://dictionnaire.lerobert.com/definition/autour"
+  ]
+ },
+ "https://www.cnrtl.fr": {
+  "motsClesDetectes": [
+   "Autour de",
+   "Messe",
+   "Eden",
+   "Medium"
+  ],
+  "liensExacts": [
+   "https://www.cnrtl.fr/definition/autour%20de",
+   "https://www.cnrtl.fr/definition/messe",
+   "https://www.cnrtl.fr/definition/%C3%A9den",
+   "https://www.cnrtl.fr/definition/m%C3%A9dium"
+  ]
+ },
+ "https://www.lalanguefrancaise.com": {
+  "motsClesDetectes": [
+   "Autour de",
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://www.lalanguefrancaise.com/dictionnaire/definition/autour-de",
+   "https://www.lalanguefrancaise.com/dictionnaire/definition/et-alors"
+  ]
+ },
+ "https://www.linguee.fr": {
+  "motsClesDetectes": [
+   "Autour de"
+  ],
+  "liensExacts": [
+   "https://www.linguee.fr/francais-anglais/traduction/autour+de.html"
+  ]
+ },
+ "https://langue-francaise.tv5monde.com": {
+  "motsClesDetectes": [
+   "Autour de",
+   "Toc Toc ",
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://langue-francaise.tv5monde.com/decouvrir/dictionnaire/a/autour%20de",
+   "https://langue-francaise.tv5monde.com/decouvrir/dictionnaire/t/toc-toc",
+   "https://langue-francaise.tv5monde.com/decouvrir/dictionnaire/e/et%20alors"
+  ]
+ },
+ "https://www.autourdebebe.com": {
+  "motsClesDetectes": [
+   "Autour de"
+  ],
+  "liensExacts": [
+   "https://www.autourdebebe.com/"
+  ]
+ },
+ "https://www.france.tv": {
+  "motsClesDetectes": [
+   "Autour de",
+   "Plus belle la vie",
+   "Simon",
+   "Un si grand soleil",
+   "Nina",
+   "Rex",
+   "Boris",
+   "Sherlock",
+   "Zip Zip",
+   "Toc Toc ",
+   "Ninjago",
+   "Peppa Pig"
+  ],
+  "liensExacts": [
+   "https://www.france.tv/slash/autour-de/",
+   "https://www.france.tv/france-3/plus-belle-la-vie/",
+   "https://www.france.tv/france-3/plus-belle-la-vie/toutes-les-videos/",
+   "https://www.france.tv/france-5/simon/",
+   "https://www.france.tv/france-5/simon/toutes-les-videos/",
+   "https://www.france.tv/france-2/un-si-grand-soleil/",
+   "https://www.france.tv/france-2/un-si-grand-soleil/toutes-les-videos/",
+   "https://www.france.tv/france-2/un-si-grand-soleil/un-si-grand-soleil-saison-4/4226173-episode-du-vendredi-21-octobre-2022.html",
+   "https://www.france.tv/france-2/nina/",
+   "https://www.france.tv/france-3/rex/",
+   "https://www.france.tv/france-5/boris/",
+   "https://www.france.tv/france-4/sherlock/",
+   "https://www.france.tv/france-3/zip-zip/",
+   "https://www.france.tv/france-4/toc-toc/",
+   "https://www.france.tv/france-3/lego-ninjago/",
+   "https://www.france.tv/france-5/peppa-pig/"
+  ]
+ },
+ "https://www.seloger.com": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.seloger.com/immobilier/achat/immo-saint-cyr-sur-loire-37/bien-maison/"
+  ]
+ },
+ "https://www.avendrealouer.fr": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.avendrealouer.fr/vente/saint-cyr-sur-loire-37/b-maison/loc-101-17454.html"
+  ]
+ },
+ "https://www.paruvendu.fr": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.paruvendu.fr/immobilier/vente/maison/saint-cyr-sur-loire-37540/"
+  ]
+ },
+ "https://www.bienici.com": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.bienici.com/recherche/achat/saint-cyr-sur-loire-37540/maisonvilla"
+  ]
+ },
+ "https://www.logic-immo.com": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.logic-immo.com/maison-saint-cyr-sur-loire/vente-maison-saint-cyr-sur-loire-37540-27487_2.html"
+  ]
+ },
+ "https://www.entreparticuliers.com": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.entreparticuliers.com/annonces-immobilieres/vente/maison/saint-cyr-sur-loire-37540"
+  ]
+ },
+ "https://immobilier.lefigaro.fr": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://immobilier.lefigaro.fr/annonces/immobilier-vente-maison-saint+cyr+sur+loire+37540.html"
+  ]
+ },
+ "https://www.pap.fr": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.pap.fr/annonce/vente-maisons-saint-cyr-sur-loire-37540-g21559"
+  ]
+ },
+ "https://www.bellesdemeures.com": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "https://www.bellesdemeures.com/vente/france/centre/indre-et-loire/saint-cyr-sur-loire/maison-luxe/tt-2-tb-2-pl-15629/"
+  ]
+ },
+ "http://www.lesclesdumidi.com": {
+  "motsClesDetectes": [
+   "Maison à vendre"
+  ],
+  "liensExacts": [
+   "http://www.lesclesdumidi.com/immobilier/vendre_maison-indre_et_loire-saint_cyr_sur_loire.html"
+  ]
+ },
+ "https://www.geo.fr": {
+  "motsClesDetectes": [
+   "Claude"
+  ],
+  "liensExacts": [
+   "https://www.geo.fr/histoire/claude-lempereur-qui-fit-des-gaulois-des-romains-201825"
+  ]
+ },
+ "https://fr.vikidia.org": {
+  "motsClesDetectes": [
+   "Claude",
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://fr.vikidia.org/wiki/Claude_(empereur_romain)",
+   "https://fr.vikidia.org/wiki/Renard"
+  ]
+ },
+ "https://www.elle.fr": {
+  "motsClesDetectes": [
+   "Claude",
+   "Friends",
+   "Scorpion",
+   "Malcolm",
+   "Leonardo",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.elle.fr/Astro/Personnalite/Prenom/Homme-Claude",
+   "https://www.elle.fr/index/Friends",
+   "https://www.elle.fr/Astro/Horoscope/Caractere/Scorpion",
+   "https://www.elle.fr/Loisirs/Series/malcolm-acteurs",
+   "https://www.elle.fr/Personnalites/Leonardo-DiCaprio",
+   "https://www.elle.fr/Loisirs/Series/This-Is-Us-une-saison-7-est-elle-prevue-4022801"
+  ]
+ },
+ "https://www.herodote.net": {
+  "motsClesDetectes": [
+   "Claude"
+  ],
+  "liensExacts": [
+   "https://www.herodote.net/Bio/Claude-biographie-Q2xhdWRl.php"
+  ]
+ },
+ "https://www.journaldesfemmes.fr": {
+  "motsClesDetectes": [
+   "Claude",
+   "Eden"
+  ],
+  "liensExacts": [
+   "https://www.journaldesfemmes.fr/prenoms/claude/prenom-2572",
+   "https://www.journaldesfemmes.fr/prenoms/eden/prenom-317"
+  ]
+ },
+ "https://www.facebook.com": {
+  "motsClesDetectes": [
+   "Plus belle la vie",
+   "Ici tout commence"
+  ],
+  "liensExacts": [
+   "https://www.facebook.com/plusbellelavie/",
+   "https://www.facebook.com/IciToutCommence.TF1/"
+  ]
+ },
+ "https://www.plusbellelavie.org": {
+  "motsClesDetectes": [
+   "Plus belle la vie"
+  ],
+  "liensExacts": [
+   "https://www.plusbellelavie.org/"
+  ]
+ },
+ "https://www.linternaute.com": {
+  "motsClesDetectes": [
+   "Plus belle la vie",
+   "Demain nous appartient",
+   "Friends",
+   "Malcolm",
+   "Desperate Housewives"
+  ],
+  "liensExacts": [
+   "https://www.linternaute.com/television/plus-belle-la-vie-du-26-avril-2022-gabriel-radie-spoilers-p3115552/",
+   "https://www.linternaute.com/television/demain-nous-appartient-des-le-24-octobre-2022-regis-victime-d-une-arnaqueuse-spoilers-p3945608/",
+   "https://www.linternaute.com/television/friends-jennifer-aniston-et-david-schwimmer-en-couple-revelations-de-la-reunion-p3115814/",
+   "https://www.linternaute.com/television/serie-malcolm-p3116190/",
+   "https://www.linternaute.com/television/serie-desperate-housewives-p3115777/"
+  ]
+ },
+ "https://www.nouveautes-tele.com": {
+  "motsClesDetectes": [
+   "Plus belle la vie",
+   "Ici tout commence",
+   "En famille"
+  ],
+  "liensExacts": [
+   "https://www.nouveautes-tele.com/38439-plus-belle-la-vie-le-guide-des-resumes-et-spoilers.html",
+   "https://www.nouveautes-tele.com/118986-nouveau-feuilleton-sur-tf1.html",
+   "https://www.nouveautes-tele.com/162864-en-famille-saison-10-m6-casting-avis.html"
+  ]
+ },
+ "https://www.instagram.com": {
+  "motsClesDetectes": [
+   "Plus belle la vie",
+   "Demain nous appartient",
+   "Ici tout commence",
+   "The Voice",
+   "Un si grand soleil",
+   "Top chef"
+  ],
+  "liensExacts": [
+   "https://www.instagram.com/pblvofficiel/?hl=fr",
+   "https://www.instagram.com/dna_tf1/?hl=fr",
+   "https://www.instagram.com/itc_tf1/?hl=fr",
+   "https://www.instagram.com/thevoice_tf1/?hl=fr",
+   "https://www.instagram.com/unsigrandsoleil/?hl=fr",
+   "https://www.instagram.com/topchefm6/?hl=fr"
+  ]
+ },
+ "https://www.tf1.fr": {
+  "motsClesDetectes": [
+   "Koh Lanta",
+   "Demain nous appartient",
+   "Ici tout commence",
+   "The Voice",
+   "Sam",
+   "Dragon Ball Z",
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://www.tf1.fr/tf1/koh-lanta",
+   "https://www.tf1.fr/tf1/demain-nous-appartient",
+   "https://www.tf1.fr/tf1/demain-nous-appartient/videos",
+   "https://www.tf1.fr/tf1/ici-tout-commence",
+   "https://www.tf1.fr/tf1/ici-tout-commence/videos",
+   "https://www.tf1.fr/tf1/the-voice",
+   "https://www.tf1.fr/tf1/sam",
+   "https://www.tf1.fr/tfx/dragon-ball-z-616",
+   "https://www.tf1.fr/tf1/et-alors"
+  ]
+ },
+ "https://fr-fr.facebook.com": {
+  "motsClesDetectes": [
+   "Koh Lanta",
+   "Demain nous appartient",
+   "Capital",
+   "The Voice",
+   "Turbo",
+   "Un si grand soleil",
+   "Top chef",
+   "Nina",
+   "Forever"
+  ],
+  "liensExacts": [
+   "https://fr-fr.facebook.com/Kohlanta.tf1.fr/",
+   "https://fr-fr.facebook.com/DemainNousAppartient/",
+   "https://fr-fr.facebook.com/Capital.fr/",
+   "https://fr-fr.facebook.com/the.voice.tf1/",
+   "https://fr-fr.facebook.com/Turbo.fr/",
+   "https://fr-fr.facebook.com/UnSiGrandSoleil/",
+   "https://fr-fr.facebook.com/topchef.m6/",
+   "https://fr-fr.facebook.com/NINAfrance2/",
+   "https://fr-fr.facebook.com/ForeverFranceHQ/"
+  ]
+ },
+ "https://twitter.com": {
+  "motsClesDetectes": [
+   "Koh Lanta",
+   "Pokémon"
+  ],
+  "liensExacts": [
+   "https://twitter.com/kohlantatf1",
+   "https://twitter.com/pokemonfr"
+  ]
+ },
+ "https://www.ouest-france.fr": {
+  "motsClesDetectes": [
+   "Koh Lanta",
+   "The Voice"
+  ],
+  "liensExacts": [
+   "https://www.ouest-france.fr/medias/television/koh-lanta/",
+   "https://www.ouest-france.fr/medias/television/koh-lanta/koh-lanta-le-casting-de-la-prochaine-saison-est-ouvert-avis-aux-futurs-aventuriers-098b4f7e-3e61-11ed-91cc-1c8b00fd22eb",
+   "https://www.ouest-france.fr/medias/television/the-voice/"
+  ]
+ },
+ "https://www.20minutes.fr": {
+  "motsClesDetectes": [
+   "Koh Lanta",
+   "The Voice",
+   "Top chef"
+  ],
+  "liensExacts": [
+   "https://www.20minutes.fr/arts-stars/television/koh_lanta/",
+   "https://www.20minutes.fr/television/the-voice/",
+   "https://www.20minutes.fr/dossier/top_chef"
+  ]
+ },
+ "https://www.lefigaro.fr": {
+  "motsClesDetectes": [
+   "Koh Lanta"
+  ],
+  "liensExacts": [
+   "https://www.lefigaro.fr/tag/koh-lanta"
+  ]
+ },
+ "https://newsactual.fr": {
+  "motsClesDetectes": [
+   "Demain nous appartient",
+   "Ici tout commence"
+  ],
+  "liensExacts": [
+   "https://newsactual.fr/demain-nous-appartient-du-25-octobre-2022-claire-est-la-nouvelle-compagne-de-martin-et-cest-larnaqueuse-resume-en-avance-de-lepisode-1302-de-dna/",
+   "https://newsactual.fr/ici-tout-commence-du-25-octobre-2022-vic-est-demasquee-par-theo-greg-et-mehdi-vires-du-double-a-resume-en-avance-de-lepisode-516-video/"
+  ]
+ },
+ "https://www.youtube.com": {
+  "motsClesDetectes": [
+   "Demain nous appartient",
+   "Ici tout commence",
+   "Pokémon",
+   "The Voice",
+   "Simon",
+   "Turbo",
+   "Un si grand soleil",
+   "Boris",
+   "Zip Zip",
+   "Halo",
+   "Peppa Pig",
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://www.youtube.com/watch?v=XqRwLwcqUYk",
+   "https://www.youtube.com/channel/UC1kgs9KsmLNk_0j_y-Kx9tQ",
+   "https://www.youtube.com/channel/UCwEC7GXV2G0S7KYXSK1WjXw",
+   "https://www.youtube.com/channel/UCQRELbX0H5FCokIFxOAsHFA",
+   "https://www.youtube.com/channel/UCo9j7fWproKYTos4_RY-LUw",
+   "https://www.youtube.com/channel/UCFWbymCbj09ZWtz9OavJ4Dg",
+   "https://www.youtube.com/c/Unsigrandsoleil",
+   "https://www.youtube.com/channel/UCed5Ws7_cYTNIlomLXOg_pg",
+   "https://www.youtube.com/channel/UCP8sYin_M1pkpVh_NFQCzJw",
+   "https://www.youtube.com/watch?v=bnVUHWCynig",
+   "https://www.youtube.com/channel/UCXptamDYEVcU4JCio30hYTw",
+   "https://www.youtube.com/watch?v=2zdqymnZoHc"
+  ]
+ },
+ "https://www.capital.fr": {
+  "motsClesDetectes": [
+   "Capital"
+  ],
+  "liensExacts": [
+   "https://www.capital.fr/"
+  ]
+ },
+ "https://www.6play.fr": {
+  "motsClesDetectes": [
+   "Capital",
+   "Turbo",
+   "En famille",
+   "Top chef",
+   "Malcolm",
+   "Desperate Housewives",
+   "911"
+  ],
+  "liensExacts": [
+   "https://www.6play.fr/capital-p_860",
+   "https://www.6play.fr/turbo-p_884",
+   "https://www.6play.fr/en-famille-p_1270",
+   "https://www.6play.fr/top-chef-p_872",
+   "https://www.6play.fr/malcolm-p_21683",
+   "https://www.6play.fr/desperate-housewives-p_840",
+   "https://www.6play.fr/9-1-1-p_13373"
+  ]
+ },
+ "https://www.prismashop.fr": {
+  "motsClesDetectes": [
+   "Capital"
+  ],
+  "liensExacts": [
+   "https://www.prismashop.fr/tous-les-magazines/actualite-economique/capital.html"
+  ]
+ },
+ "https://www.toupie.org": {
+  "motsClesDetectes": [
+   "Capital"
+  ],
+  "liensExacts": [
+   "https://www.toupie.org/Dictionnaire/Capital.htm"
+  ]
+ },
+ "https://www.pokemon.com": {
+  "motsClesDetectes": [
+   "Pokémon"
+  ],
+  "liensExacts": [
+   "https://www.pokemon.com/fr/"
+  ]
+ },
+ "https://pokemongolive.com": {
+  "motsClesDetectes": [
+   "Pokémon"
+  ],
+  "liensExacts": [
+   "https://pokemongolive.com/fr/"
+  ]
+ },
+ "https://www.pokemon-france.com": {
+  "motsClesDetectes": [
+   "Pokémon"
+  ],
+  "liensExacts": [
+   "https://www.pokemon-france.com/"
+  ]
+ },
+ "https://www.tf1info.fr": {
+  "motsClesDetectes": [
+   "The Voice",
+   "Peppa Pig"
+  ],
+  "liensExacts": [
+   "https://www.tf1info.fr/actualite/the-voice-10285/",
+   "https://www.tf1info.fr/culture/peppa-pig-le-dessin-anime-pour-enfants-accueille-son-premier-couple-gay-lesbien-2231593.html"
+  ]
+ },
+ "https://www.purepeople.com": {
+  "motsClesDetectes": [
+   "The Voice",
+   "Top chef"
+  ],
+  "liensExacts": [
+   "https://www.purepeople.com/people/the-voice_p2567",
+   "https://www.purepeople.com/people/top-chef_p2447"
+  ]
+ },
+ "https://www.patrickroger.com": {
+  "motsClesDetectes": [
+   "Roger"
+  ],
+  "liensExacts": [
+   "https://www.patrickroger.com/"
+  ]
+ },
+ "https://www.polroger.com": {
+  "motsClesDetectes": [
+   "Roger"
+  ],
+  "liensExacts": [
+   "https://www.polroger.com/"
+  ]
+ },
+ "https://www.parents.fr": {
+  "motsClesDetectes": [
+   "Roger",
+   "Nina"
+  ],
+  "liensExacts": [
+   "https://www.parents.fr/prenoms/roger-53436",
+   "https://www.parents.fr/prenoms/nina-51276"
+  ]
+ },
+ "https://boutique.biscottes-roger.fr": {
+  "motsClesDetectes": [
+   "Roger"
+  ],
+  "liensExacts": [
+   "https://boutique.biscottes-roger.fr/"
+  ]
+ },
+ "https://fr.pons.com": {
+  "motsClesDetectes": [
+   "Will"
+  ],
+  "liensExacts": [
+   "https://fr.pons.com/traduction/anglais-fran%C3%A7ais/will"
+  ]
+ },
+ "https://dictionary.cambridge.org": {
+  "motsClesDetectes": [
+   "Will",
+   "Access",
+   "Next"
+  ],
+  "liensExacts": [
+   "https://dictionary.cambridge.org/fr/dictionnaire/anglais-francais/will",
+   "https://dictionary.cambridge.org/fr/dictionnaire/anglais-francais/access",
+   "https://dictionary.cambridge.org/fr/dictionnaire/anglais-francais/next"
+  ]
+ },
+ "https://www.wordreference.com": {
+  "motsClesDetectes": [
+   "Will"
+  ],
+  "liensExacts": [
+   "https://www.wordreference.com/enfr/will"
+  ]
+ },
+ "https://www.gymglish.com": {
+  "motsClesDetectes": [
+   "Will"
+  ],
+  "liensExacts": [
+   "https://www.gymglish.com/fr/conjugaison/anglais/verbe/to+will"
+  ]
+ },
+ "https://www.chateausimon.fr": {
+  "motsClesDetectes": [
+   "Simon"
+  ],
+  "liensExacts": [
+   "https://www.chateausimon.fr/"
+  ]
+ },
+ "https://www.amazon.fr": {
+  "motsClesDetectes": [
+   "Simon",
+   "Sam",
+   "Dragon Ball Z",
+   "Toc Toc ",
+   "Ninjago"
+  ],
+  "liensExacts": [
+   "https://www.amazon.fr/Simon-jeu-de-m%C3%A9moire-%C3%A9lectronique/dp/B0937KYF4Y",
+   "https://www.amazon.fr/Sam-outillage/s?k=Sam+outillage",
+   "https://www.amazon.fr/Jeux-Jouets-Dragon-Ball-Z/s?rh=n%3A322086011%2Cp_n_featured_character_browse-bin%3A406344031",
+   "https://www.amazon.fr/toc-Jeux-de-soci%C3%A9t%C3%A9-Jouets/s?k=toc+toc&rh=n%3A363587031",
+   "https://www.amazon.fr/Lego-Ninjago-Jeux-Jouets/s?k=Lego+Ninjago&rh=n%3A322086011"
+  ]
+ },
+ "https://www.turbo.fr": {
+  "motsClesDetectes": [
+   "Turbo"
+  ],
+  "liensExacts": [
+   "https://www.turbo.fr/"
+  ]
+ },
+ "https://www.mister-turbo.com": {
+  "motsClesDetectes": [
+   "Turbo"
+  ],
+  "liensExacts": [
+   "https://www.mister-turbo.com/fr/"
+  ]
+ },
+ "https://www.sam-outillage.fr": {
+  "motsClesDetectes": [
+   "Sam"
+  ],
+  "liensExacts": [
+   "https://www.sam-outillage.fr/"
+  ]
+ },
+ "https://www.bricozor.com": {
+  "motsClesDetectes": [
+   "Sam"
+  ],
+  "liensExacts": [
+   "https://www.bricozor.com/marques/sam-outillage/"
+  ]
+ },
+ "https://www.sam-assurance.com": {
+  "motsClesDetectes": [
+   "Sam"
+  ],
+  "liensExacts": [
+   "https://www.sam-assurance.com/"
+  ]
+ },
+ "https://messes.info": {
+  "motsClesDetectes": [
+   "Messe"
+  ],
+  "liensExacts": [
+   "https://messes.info/"
+  ]
+ },
+ "http://paroisse.ndchoisille.free.fr": {
+  "motsClesDetectes": [
+   "Messe"
+  ],
+  "liensExacts": [
+   "http://paroisse.ndchoisille.free.fr/articles.php?pg=art11"
+  ]
+ },
+ "https://eglise.catholique.fr": {
+  "motsClesDetectes": [
+   "Messe"
+  ],
+  "liensExacts": [
+   "https://eglise.catholique.fr/glossaire/messe/"
+  ]
+ },
+ "https://m.youtube.com": {
+  "motsClesDetectes": [
+   "En famille"
+  ],
+  "liensExacts": [
+   "https://m.youtube.com/channel/UCSWronuucKpQoluVZrt0vCA"
+  ]
+ },
+ "https://www.enfamille.com": {
+  "motsClesDetectes": [
+   "En famille"
+  ],
+  "liensExacts": [
+   "https://www.enfamille.com/fr/"
+  ]
+ },
+ "https://www.microsoft.com": {
+  "motsClesDetectes": [
+   "Access"
+  ],
+  "liensExacts": [
+   "https://www.microsoft.com/fr-fr/microsoft-365/access"
+  ]
+ },
+ "https://acces-editions.com": {
+  "motsClesDetectes": [
+   "Access"
+  ],
+  "liensExacts": [
+   "https://acces-editions.com/"
+  ]
+ },
+ "https://fr.wikihow.com": {
+  "motsClesDetectes": [
+   "Access"
+  ],
+  "liensExacts": [
+   "https://fr.wikihow.com/utiliser-Microsoft-Access"
+  ]
+ },
+ "https://fr.linkedin.com": {
+  "motsClesDetectes": [
+   "Access"
+  ],
+  "liensExacts": [
+   "https://fr.linkedin.com/learning/l-essentiel-d-access-microsoft-365-office-365/comprendre-le-role-d-access"
+  ]
+ },
+ "https://eden.fftir.org": {
+  "motsClesDetectes": [
+   "Eden"
+  ],
+  "liensExacts": [
+   "https://eden.fftir.org/"
+  ]
+ },
+ "https://www.fftir.org": {
+  "motsClesDetectes": [
+   "Eden"
+  ],
+  "liensExacts": [
+   "https://www.fftir.org/eden-mode-demploi/"
+  ]
+ },
+ "https://eden.vjf.inserm.fr": {
+  "motsClesDetectes": [
+   "Eden"
+  ],
+  "liensExacts": [
+   "https://eden.vjf.inserm.fr/"
+  ]
+ },
+ "https://www.premiere.fr": {
+  "motsClesDetectes": [
+   "Friends",
+   "Riverdale"
+  ],
+  "liensExacts": [
+   "https://www.premiere.fr/series/Friends",
+   "https://www.premiere.fr/Series/News-Series/Riverdale-la-fin-de-la-saison-6-expliquee"
+  ]
+ },
+ "https://www.imdb.com": {
+  "motsClesDetectes": [
+   "Friends",
+   "Desperate Housewives",
+   "Sherlock",
+   "Riverdale",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.imdb.com/title/tt0108778/",
+   "https://www.imdb.com/title/tt0410975/",
+   "https://www.imdb.com/title/tt1475582/",
+   "https://www.imdb.com/title/tt5420376/",
+   "https://www.imdb.com/title/tt5555260/"
+  ]
+ },
+ "https://www.vogue.fr": {
+  "motsClesDetectes": [
+   "Friends"
+  ],
+  "liensExacts": [
+   "https://www.vogue.fr/culture/article/pourquoi-friends-est-la-serie-la-plus-culte-de-tous-les-temps"
+  ]
+ },
+ "https://www.fnac.com": {
+  "motsClesDetectes": [
+   "Friends",
+   "Dragon Ball Z",
+   "Ninjago"
+  ],
+  "liensExacts": [
+   "https://www.fnac.com/Friends/si3142",
+   "https://www.fnac.com/n515270/Dragon-Ball-Z",
+   "https://www.fnac.com/n221119/Notre-univers-LEGO/LEGO-Ninjago"
+  ]
+ },
+ "https://www.nextdirect.com": {
+  "motsClesDetectes": [
+   "Next"
+  ],
+  "liensExacts": [
+   "https://www.nextdirect.com/fr/fr"
+  ]
+ },
+ "https://www.zalando.fr": {
+  "motsClesDetectes": [
+   "Next"
+  ],
+  "liensExacts": [
+   "https://www.zalando.fr/next/"
+  ]
+ },
+ "https://www.laredoute.fr": {
+  "motsClesDetectes": [
+   "Next"
+  ],
+  "liensExacts": [
+   "https://www.laredoute.fr/pplp/100/157878/cat-201.aspx?brndid=next"
+  ]
+ },
+ "https://www.next.co.uk": {
+  "motsClesDetectes": [
+   "Next"
+  ],
+  "liensExacts": [
+   "https://www.next.co.uk/"
+  ]
+ },
+ "https://www.marieclaire.fr": {
+  "motsClesDetectes": [
+   "Scorpion"
+  ],
+  "liensExacts": [
+   "https://www.marieclaire.fr/astro/signe-du-zodiaque/signe-astrologique/scorpion/"
+  ]
+ },
+ "https://www.noovomoi.ca": {
+  "motsClesDetectes": [
+   "Scorpion"
+  ],
+  "liensExacts": [
+   "https://www.noovomoi.ca/horoscope/traditionnel/article.13-choses-a-savoir-sur-le-scorpion.1.2035589.html"
+  ]
+ },
+ "https://labougieherbivore.com": {
+  "motsClesDetectes": [
+   "Scorpion"
+  ],
+  "liensExacts": [
+   "https://labougieherbivore.com/blogs/infos/presentation-signe-astro-scorpion"
+  ]
+ },
+ "https://www.cuisineaz.com": {
+  "motsClesDetectes": [
+   "Top chef"
+  ],
+  "liensExacts": [
+   "https://www.cuisineaz.com/top-chef-m6-p621"
+  ]
+ },
+ "https://cuisine.journaldesfemmes.fr": {
+  "motsClesDetectes": [
+   "Top chef"
+  ],
+  "liensExacts": [
+   "https://cuisine.journaldesfemmes.fr/chefs-et-gastronomie/1977430-top-chef-louise-bourrat-est-la-gagnante-de-la-saison-13/"
+  ]
+ },
+ "http://prenoms.famili.fr": {
+  "motsClesDetectes": [
+   "Nina"
+  ],
+  "liensExacts": [
+   "http://prenoms.famili.fr/,nina,2277,14700.asp"
+  ]
+ },
+ "https://www.ninaricci.com": {
+  "motsClesDetectes": [
+   "Nina"
+  ],
+  "liensExacts": [
+   "https://www.ninaricci.com/fr-fr"
+  ]
+ },
+ "https://www.legrandrex.com": {
+  "motsClesDetectes": [
+   "Rex"
+  ],
+  "liensExacts": [
+   "https://www.legrandrex.com/"
+  ]
+ },
+ "http://www.rex-montbrison42.fr": {
+  "motsClesDetectes": [
+   "Rex"
+  ],
+  "liensExacts": [
+   "http://www.rex-montbrison42.fr/"
+  ]
+ },
+ "http://www.lerextoulouse.com": {
+  "motsClesDetectes": [
+   "Rex"
+  ],
+  "liensExacts": [
+   "http://www.lerextoulouse.com/"
+  ]
+ },
+ "https://trade.ec.europa.eu": {
+  "motsClesDetectes": [
+   "Rex"
+  ],
+  "liensExacts": [
+   "https://trade.ec.europa.eu/access-to-markets/fr/content/systeme-rex"
+  ]
+ },
+ "https://www.malcolm-france.com": {
+  "motsClesDetectes": [
+   "Malcolm"
+  ],
+  "liensExacts": [
+   "https://www.malcolm-france.com/"
+  ]
+ },
+ "https://www.disneyplus.com": {
+  "motsClesDetectes": [
+   "Malcolm",
+   "Desperate Housewives"
+  ],
+  "liensExacts": [
+   "https://www.disneyplus.com/fr-fr/series/malcolm/5mNQERYSP5YN",
+   "https://www.disneyplus.com/fr-fr/series/_/5Hz3oX3tHFNr"
+  ]
+ },
+ "https://replay.gulli.fr": {
+  "motsClesDetectes": [
+   "Malcolm"
+  ],
+  "liensExacts": [
+   "https://replay.gulli.fr/series/Malcolm-s05"
+  ]
+ },
+ "https://www.france24.com": {
+  "motsClesDetectes": [
+   "Boris"
+  ],
+  "liensExacts": [
+   "https://www.france24.com/fr/europe/20221021-royaume-uni-boris-johnson-peut-il-vraiment-revenir"
+  ]
+ },
+ "https://www.bfmtv.com": {
+  "motsClesDetectes": [
+   "Boris"
+  ],
+  "liensExacts": [
+   "https://www.bfmtv.com/international/europe/angleterre/dans-les-starting-blocks-pour-downing-street-boris-johnson-rentre-a-londres_AD-202210220133.html"
+  ]
+ },
+ "https://www.tvanouvelles.ca": {
+  "motsClesDetectes": [
+   "Boris"
+  ],
+  "liensExacts": [
+   "https://www.tvanouvelles.ca/2022/10/22/boris-johnson-hue-a-son-retour-au-pays-en-classe-economique"
+  ]
+ },
+ "https://www.huffingtonpost.fr": {
+  "motsClesDetectes": [
+   "Boris",
+   "Sherlock"
+  ],
+  "liensExacts": [
+   "https://www.huffingtonpost.fr/boris-johnson/",
+   "https://www.huffingtonpost.fr/sherlock/"
+  ]
+ },
+ "https://www.urgences-la-serie.com": {
+  "motsClesDetectes": [
+   "Urgences"
+  ],
+  "liensExacts": [
+   "https://www.urgences-la-serie.com/"
+  ]
+ },
+ "https://www.gouvernement.fr": {
+  "motsClesDetectes": [
+   "Urgences"
+  ],
+  "liensExacts": [
+   "https://www.gouvernement.fr/risques/connaitre-les-numeros-d-urgence"
+  ]
+ },
+ "https://www.francetvinfo.fr": {
+  "motsClesDetectes": [
+   "Urgences"
+  ],
+  "liensExacts": [
+   "https://www.francetvinfo.fr/sante/urgences-pediatriques-saturees-le-gouvernement-est-responsable-des-drames-qui-vont-arriver-alerte-la-pediatre-veronique-hentgen_5432371.html"
+  ]
+ },
+ "https://www.ecranlarge.com": {
+  "motsClesDetectes": [
+   "Desperate Housewives",
+   "La Flamme"
+  ],
+  "liensExacts": [
+   "https://www.ecranlarge.com/series/news/1412178-desperate-housewives-la-serie-pourrait-faire-son-grand-retour-en-2022",
+   "https://www.ecranlarge.com/series/1345614-la-flamme"
+  ]
+ },
+ "https://www.vanityfair.fr": {
+  "motsClesDetectes": [
+   "Desperate Housewives",
+   "La Flamme"
+  ],
+  "liensExacts": [
+   "https://www.vanityfair.fr/culture/ecrans/diaporama/desperate-housewives-que-sont-devenus-les-acteurs-de-la-serie-culte/61848",
+   "https://www.vanityfair.fr/actualites/article/une-plethore-de-stars-rejoindra-jonathan-cohen-au-casting-de-la-saison-2-de-la-flamme"
+  ]
+ },
+ "https://www.canalplus.com": {
+  "motsClesDetectes": [
+   "Desperate Housewives",
+   "Sherlock",
+   "La Flamme",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.canalplus.com/series/desperate-housewives/h/15316021_50269",
+   "https://www.canalplus.com/series/sherlock/h/6767563_40099",
+   "https://www.canalplus.com/series/la-flamme/h/14768790_50001",
+   "https://www.canalplus.com/series/la-flamme/",
+   "https://www.canalplus.com/series/this-is-us/h/7593776_50001"
+  ]
+ },
+ "https://medium.com": {
+  "motsClesDetectes": [
+   "Medium"
+  ],
+  "liensExacts": [
+   "https://medium.com/"
+  ]
+ },
+ "https://play.google.com": {
+  "motsClesDetectes": [
+   "Medium"
+  ],
+  "liensExacts": [
+   "https://play.google.com/store/apps/details?id=com.medium.reader&hl=fr&gl=US"
+  ]
+ },
+ "https://www.db-z.com": {
+  "motsClesDetectes": [
+   "Dragon Ball Z"
+  ],
+  "liensExacts": [
+   "https://www.db-z.com/"
+  ]
+ },
+ "https://fr.bandainamcoent.eu": {
+  "motsClesDetectes": [
+   "Dragon Ball Z",
+   "Peppa Pig"
+  ],
+  "liensExacts": [
+   "https://fr.bandainamcoent.eu/dragon-ball/dragon-ball-z-kakarot",
+   "https://fr.bandainamcoent.eu/peppa-pig/mon-amie-peppa-pig"
+  ]
+ },
+ "https://www.telerama.fr": {
+  "motsClesDetectes": [
+   "Dragon Ball Z"
+  ],
+  "liensExacts": [
+   "https://www.telerama.fr/ecrans/sur-youtube-ces-sequences-memorables-de-dragon-ball-z-7012138.php"
+  ]
+ },
+ "https://www.playstation.com": {
+  "motsClesDetectes": [
+   "Dragon Ball Z"
+  ],
+  "liensExacts": [
+   "https://www.playstation.com/fr-fr/games/dragon-ball-z-kakarot/"
+  ]
+ },
+ "https://www.melty.fr": {
+  "motsClesDetectes": [
+   "Sherlock"
+  ],
+  "liensExacts": [
+   "https://www.melty.fr/series/sherlock-le-detective-de-retour-dans-une-saison-5-benedict-cumberbatch-repond-12123.html"
+  ]
+ },
+ "https://www.jolie-bobine.fr": {
+  "motsClesDetectes": [
+   "Sherlock"
+  ],
+  "liensExacts": [
+   "https://www.jolie-bobine.fr/sherlock-saison-5-pourquoi-le-retour-de-holmes-de-cumberbatch-serait-une-erreur"
+  ]
+ },
+ "https://www.senscritique.com": {
+  "motsClesDetectes": [
+   "Sherlock"
+  ],
+  "liensExacts": [
+   "https://www.senscritique.com/serie/sherlock/100113"
+  ]
+ },
+ "https://squat.telequebec.tv": {
+  "motsClesDetectes": [
+   "Zip Zip"
+  ],
+  "liensExacts": [
+   "https://squat.telequebec.tv/zip-zip"
+  ]
+ },
+ "https://www.go-n.fr": {
+  "motsClesDetectes": [
+   "Zip Zip"
+  ],
+  "liensExacts": [
+   "https://www.go-n.fr/program/zip-zip/"
+  ]
+ },
+ "https://sacotin.com": {
+  "motsClesDetectes": [
+   "Zip Zip"
+  ],
+  "liensExacts": [
+   "https://sacotin.com/boutique/trousses-zip-zip/"
+  ]
+ },
+ "https://www.pinterest.fr": {
+  "motsClesDetectes": [
+   "Zip Zip"
+  ],
+  "liensExacts": [
+   "https://www.pinterest.fr/lmi4kids/zip-zip/"
+  ]
+ },
+ "https://www.notrenature.be": {
+  "motsClesDetectes": [
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://www.notrenature.be/banque-des-especes/renard"
+  ]
+ },
+ "https://lemagdesanimaux.ouest-france.fr": {
+  "motsClesDetectes": [
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://lemagdesanimaux.ouest-france.fr/dossier-9-renard-roux.html"
+  ]
+ },
+ "https://www.le-renard.fr": {
+  "motsClesDetectes": [
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://www.le-renard.fr/"
+  ]
+ },
+ "https://www.instinct-animal.fr": {
+  "motsClesDetectes": [
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://www.instinct-animal.fr/renard-roux/"
+  ]
+ },
+ "https://www.cotre-corsaire-renard.com": {
+  "motsClesDetectes": [
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://www.cotre-corsaire-renard.com/"
+  ]
+ },
+ "https://www.ofb.gouv.fr": {
+  "motsClesDetectes": [
+   "Le Renard"
+  ],
+  "liensExacts": [
+   "https://www.ofb.gouv.fr/le-renard"
+  ]
+ },
+ "https://www.porsche.com": {
+  "motsClesDetectes": [
+   "911"
+  ],
+  "liensExacts": [
+   "https://www.porsche.com/france/models/911/"
+  ]
+ },
+ "https://www.caradisiac.com": {
+  "motsClesDetectes": [
+   "911"
+  ],
+  "liensExacts": [
+   "https://www.caradisiac.com/gamme--porsche-911/"
+  ]
+ },
+ "https://beta.novascotia.ca": {
+  "motsClesDetectes": [
+   "911"
+  ],
+  "liensExacts": [
+   "https://beta.novascotia.ca/fr/quand-faut-il-composer-le-911-service-durgence"
+  ]
+ },
+ "https://www.bilan-psychologique.com": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://www.bilan-psychologique.com/hp/hpi.html#:~:text=Le%20Haut%20Potentiel%20Intellectuel%20correspond,WAIS%2DIV%20pour%20les%20adultes."
+  ]
+ },
+ "https://sante.journaldesfemmes.fr": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://sante.journaldesfemmes.fr/fiches-psycho-psychiatrie/2716499-hpi-haut-potentiel-intellectuel-maladie-signes-test-comment-savoir-qi/"
+  ]
+ },
+ "https://www.rayuresetratures.fr": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://www.rayuresetratures.fr/cest-quoi-etre-hpi/"
+  ]
+ },
+ "https://www.atypikoo.com": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://www.atypikoo.com/page/hpi/"
+  ]
+ },
+ "https://www.santemagazine.fr": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://www.santemagazine.fr/psycho-sexo/psycho/hpi-qui-sont-ces-personnes-a-haut-potentiel-intellectuel-922189"
+  ]
+ },
+ "https://tvmag.lefigaro.fr": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://tvmag.lefigaro.fr/programme-tv/series/tout-ce-qu-il-faut-savoir-sur-hpi-la-serie-au-haut-potentiel-intellectuel-sur-tf1-20220929"
+  ]
+ },
+ "https://www.femmeactuelle.fr": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://www.femmeactuelle.fr/sante/psycho/hpi-chez-ladulte-les-signes-qui-peuvent-indiquer-que-vous-etes-a-haut-potentiel-intellectuel-2114691"
+  ]
+ },
+ "https://suivezlezebre.com": {
+  "motsClesDetectes": [
+   "HPI"
+  ],
+  "liensExacts": [
+   "https://suivezlezebre.com/test-surdoue-gratuit/"
+  ]
+ },
+ "https://www.halowaypoint.com": {
+  "motsClesDetectes": [
+   "Halo"
+  ],
+  "liensExacts": [
+   "https://www.halowaypoint.com/fr-fr"
+  ]
+ },
+ "https://www.xbox.com": {
+  "motsClesDetectes": [
+   "Halo"
+  ],
+  "liensExacts": [
+   "https://www.xbox.com/fr-FR/games/halo"
+  ]
+ },
+ "https://www.gameblog.fr": {
+  "motsClesDetectes": [
+   "Halo"
+  ],
+  "liensExacts": [
+   "https://www.gameblog.fr/jeu-video/ed/news/halo-le-studio-aurait-pris-une-decision-radicale-pour-la-franchise-407353"
+  ]
+ },
+ "https://bytoctoc.com": {
+  "motsClesDetectes": [
+   "Toc Toc "
+  ],
+  "liensExacts": [
+   "https://bytoctoc.com/"
+  ]
+ },
+ "https://www.ticketac.com": {
+  "motsClesDetectes": [
+   "Toc Toc "
+  ],
+  "liensExacts": [
+   "https://www.ticketac.com/spectacles/toc-toc-de-laurent-baffie-la-grande-comedie.htm"
+  ]
+ },
+ "https://www.target.com": {
+  "motsClesDetectes": [
+   "Target"
+  ],
+  "liensExacts": [
+   "https://www.target.com/"
+  ]
+ },
+ "https://www.lsa-conso.fr": {
+  "motsClesDetectes": [
+   "Target"
+  ],
+  "liensExacts": [
+   "https://www.lsa-conso.fr/photos/target-met-un-pied-dans-les-centres-ville,261313",
+   "https://www.lsa-conso.fr/target/"
+  ]
+ },
+ "https://www.foreverliving.fr": {
+  "motsClesDetectes": [
+   "Forever"
+  ],
+  "liensExacts": [
+   "https://www.foreverliving.fr/?lng=fr"
+  ]
+ },
+ "https://www.aloe-vera-pour-tous.com": {
+  "motsClesDetectes": [
+   "Forever"
+  ],
+  "liensExacts": [
+   "https://www.aloe-vera-pour-tous.com/"
+  ]
+ },
+ "https://www.aloeveraforever.fr": {
+  "motsClesDetectes": [
+   "Forever"
+  ],
+  "liensExacts": [
+   "https://www.aloeveraforever.fr/forever-living/"
+  ]
+ },
+ "https://foreverliving.com": {
+  "motsClesDetectes": [
+   "Forever"
+  ],
+  "liensExacts": [
+   "https://foreverliving.com/fra/fr-fr/home"
+  ]
+ },
+ "https://www.lego.com": {
+  "motsClesDetectes": [
+   "Ninjago"
+  ],
+  "liensExacts": [
+   "https://www.lego.com/fr-fr/themes/ninjago"
+  ]
+ },
+ "https://www.king-jouet.com": {
+  "motsClesDetectes": [
+   "Ninjago"
+  ],
+  "liensExacts": [
+   "https://www.king-jouet.com/jeux-jouets/lego-ninjago/page1.htm"
+  ]
+ },
+ "https://www.avenuedelabrique.com": {
+  "motsClesDetectes": [
+   "Ninjago"
+  ],
+  "liensExacts": [
+   "https://www.avenuedelabrique.com/lego-ninjago/c24"
+  ]
+ },
+ "https://www.cdiscount.com": {
+  "motsClesDetectes": [
+   "Ninjago"
+  ],
+  "liensExacts": [
+   "https://www.cdiscount.com/juniors/lego/ninjago/l-1202819.html"
+  ]
+ },
+ "https://www.leonardo.com": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://www.leonardo.com/en/home"
+  ]
+ },
+ "https://le10sport.com": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://le10sport.com/football/mercato/mercato-leonardo-de-retour-en-ligue-1-la-reponse-tombe-616154"
+  ]
+ },
+ "https://www.eurosport.fr": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://www.eurosport.fr/football/ligue-1/2021-2022/ligue-1-leonardo-revient-sur-son-depart-du-psg-ca-ressemble-a-une-mission-accomplie_sto8995545/story.shtml"
+  ]
+ },
+ "https://www.madeindesign.com": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://www.madeindesign.com/b-leonardo.html"
+  ]
+ },
+ "https://foot11.com": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://foot11.com/news/psg-le-projet-xxl-de-leonardo-avant-son-depart-de-paris-116867"
+  ]
+ },
+ "https://fr.leonardo-catfood.com": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://fr.leonardo-catfood.com/"
+  ]
+ },
+ "https://www.parismatch.com": {
+  "motsClesDetectes": [
+   "Leonardo"
+  ],
+  "liensExacts": [
+   "https://www.parismatch.com/people/leonardo-dicaprio-et-gigi-hadid-nouvelle-idylle-216148"
+  ]
+ },
+ "https://riverdale.fandom.com": {
+  "motsClesDetectes": [
+   "Riverdale"
+  ],
+  "liensExacts": [
+   "https://riverdale.fandom.com/fr/wiki/Saison_1_(Riverdale)"
+  ]
+ },
+ "https://www.bepolar.fr": {
+  "motsClesDetectes": [
+   "Riverdale"
+  ],
+  "liensExacts": [
+   "https://www.bepolar.fr/Riverdale-Saison-1"
+  ]
+ },
+ "https://www.joueclub.fr": {
+  "motsClesDetectes": [
+   "Peppa Pig"
+  ],
+  "liensExacts": [
+   "https://www.joueclub.fr/contenu/peppa-pig-phenomene-aupres-des-jeunes-enfants.html"
+  ]
+ },
+ "https://actu.fr": {
+  "motsClesDetectes": [
+   "Peppa Pig"
+  ],
+  "liensExacts": [
+   "https://actu.fr/societe/peppa-pig-une-famille-homoparentale-fait-son-apparition-dans-le-dessin-anime_53705373.html"
+  ]
+ },
+ "https://www.justwatch.com": {
+  "motsClesDetectes": [
+   "La Flamme",
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.justwatch.com/fr/serie/la-flamme",
+   "https://www.justwatch.com/fr/serie/this-is-us"
+  ]
+ },
+ "https://etalors-lingerie.fr": {
+  "motsClesDetectes": [
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://etalors-lingerie.fr/"
+  ]
+ },
+ "https://www.et-alors.net": {
+  "motsClesDetectes": [
+   "Et alors "
+  ],
+  "liensExacts": [
+   "https://www.et-alors.net/"
+  ]
+ },
+ "https://www.benzinemag.net": {
+  "motsClesDetectes": [
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.benzinemag.net/2022/07/13/canal-this-is-us-saison-3-a-6-this-is-enfin-fini/"
+  ]
+ },
+ "https://www.lepoint.fr": {
+  "motsClesDetectes": [
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://www.lepoint.fr/pop-culture/this-is-us-quand-le-banal-devient-exceptionnel-27-05-2022-2477282_2920.php"
+  ]
+ },
+ "https://this-is-us.fandom.com": {
+  "motsClesDetectes": [
+   "This Is Us"
+  ],
+  "liensExacts": [
+   "https://this-is-us.fandom.com/fr/wiki/This_Is_Us"
+  ]
+ }
+}
