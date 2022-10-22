@@ -1,0 +1,24 @@
+{
+  "name": "seo",
+  "version": "1.0.0",
+  "description": "Polytech DEV project, web scrapping and SEO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEleffant/SEO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrEleffant/SEO/issues"
+  },
+  "homepage": "https://github.com/MrEleffant/SEO#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.0.0"
+  }
+}
