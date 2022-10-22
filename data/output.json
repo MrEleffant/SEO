@@ -4,6 +4,7 @@
    "keyword"
   ],
   "liensExacts": [
+   "https://keywordtool.io/fr",
    "https://keywordtool.io/fr"
   ]
  },
@@ -12,6 +13,7 @@
    "keyword"
   ],
   "liensExacts": [
+   "https://ads.google.com/intl/fr_fr/home/tools/keyword-planner/",
    "https://ads.google.com/intl/fr_fr/home/tools/keyword-planner/"
   ]
  },
@@ -20,6 +22,7 @@
    "keyword"
   ],
   "liensExacts": [
+   "https://ahrefs.com/fr/keyword-generator",
    "https://ahrefs.com/fr/keyword-generator"
   ]
  },
@@ -28,6 +31,7 @@
    "keyword"
   ],
   "liensExacts": [
+   "https://www.blogdumoderateur.com/tools/google-keyword-planner/",
    "https://www.blogdumoderateur.com/tools/google-keyword-planner/"
   ]
  },
@@ -36,6 +40,7 @@
    "keyword"
   ],
   "liensExacts": [
+   "https://fr.semrush.com/analytics/keywordmagic/",
    "https://fr.semrush.com/analytics/keywordmagic/"
   ]
  },
@@ -44,6 +49,7 @@
    "keyword"
   ],
   "liensExacts": [
+   "https://www.seoquantum.com/keywords-finder",
    "https://www.seoquantum.com/keywords-finder"
   ]
  },
@@ -192,7 +198,9 @@
    "https://fr.wikipedia.org/wiki/Peppa_Pig",
    "https://fr.wikipedia.org/wiki/La_Flamme_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
    "https://fr.wikipedia.org/wiki/Et_alors_!_(chanson)",
-   "https://fr.wikipedia.org/wiki/This_Is_Us"
+   "https://fr.wikipedia.org/wiki/This_Is_Us",
+   "https://fr.wikipedia.org/wiki/H_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)",
+   "https://fr.wikipedia.org/wiki/H_(lettre)"
   ]
  },
  "https://www.allocine.fr": {
@@ -252,7 +260,8 @@
    "https://www.allocine.fr/film/fichefilm_gen_cfilm=178074.html",
    "https://www.allocine.fr/series/ficheserie_gen_cserie=18543.html",
    "https://www.allocine.fr/series/ficheserie_gen_cserie=25777.html",
-   "https://www.allocine.fr/series/ficheserie_gen_cserie=19992.html"
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=19992.html",
+   "https://www.allocine.fr/series/ficheserie_gen_cserie=669.html"
   ]
  },
  "https://www.netflix.com": {
@@ -268,7 +277,9 @@
    "https://www.netflix.com/fr/title/70153404",
    "https://www.netflix.com/fr/title/80233962",
    "https://www.netflix.com/fr/title/80133311",
-   "https://www.netflix.com/ca-fr/title/80133311"
+   "https://www.netflix.com/ca-fr/title/80133311",
+   "https://www.netflix.com/fr/title/81270678",
+   "https://www.netflix.com/ca-fr/title/80241387"
   ]
  },
  "https://www.programme-tv.net": {
@@ -300,7 +311,8 @@
    "https://www.programme-tv.net/programme/series-tv/r295382-zip-zip/",
    "https://www.programme-tv.net/news/series-tv/306851-riverdale-saison-7-netflix-date-de-sortie-casting-intrigues-toutes-les-infos-sur-la-saison-a-venir/",
    "https://www.programme-tv.net/programme/series-tv/r1549240441-riverdale/",
-   "https://www.programme-tv.net/news/series-tv/302535-this-is-us-y-aura-t-il-une-saison-7-de-la-serie/"
+   "https://www.programme-tv.net/news/series-tv/302535-this-is-us-y-aura-t-il-une-saison-7-de-la-serie/",
+   "https://www.programme-tv.net/programme/series-tv/r370-h/"
   ]
  },
  "https://fr.wiktionary.org": {
@@ -324,7 +336,8 @@
    "https://fr.wiktionary.org/wiki/m%C3%A9dium",
    "https://fr.wiktionary.org/wiki/halo",
    "https://fr.wiktionary.org/wiki/target",
-   "https://fr.wiktionary.org/wiki/et_alors"
+   "https://fr.wiktionary.org/wiki/et_alors",
+   "https://fr.wiktionary.org/wiki/h"
   ]
  },
  "https://television.telerama.fr": {
@@ -332,6 +345,7 @@
    "H"
   ],
   "liensExacts": [
+   "https://television.telerama.fr/tele/serie/h-1-35636332-saison4.php",
    "https://television.telerama.fr/tele/serie/h-1-35636332-saison4.php"
   ]
  },
@@ -1864,6 +1878,30 @@
   ],
   "liensExacts": [
    "https://this-is-us.fandom.com/fr/wiki/This_Is_Us"
+  ]
+ },
+ "https://dictionnaire.reverso.net": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://dictionnaire.reverso.net/anglais-francais/keyword"
+  ]
+ },
+ "https://fr.bab.la": {
+  "motsClesDetectes": [
+   "keyword"
+  ],
+  "liensExacts": [
+   "https://fr.bab.la/dictionnaire/anglais-francais/keyword"
+  ]
+ },
+ "https://www2.hm.com": {
+  "motsClesDetectes": [
+   "H"
+  ],
+  "liensExacts": [
+   "https://www2.hm.com/fr_fr/index.html"
   ]
  }
 }

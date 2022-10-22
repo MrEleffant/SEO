@@ -37,7 +37,6 @@ async function prog() {
       writeJsonFileUTF8("./data/output.json", output)
     })
     console.log(searchResults)
-    
   }
 }
 
