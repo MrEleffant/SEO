@@ -33,16 +33,16 @@ De façon à pallier à ce problème, une possibilité de recourir directement �
 
 Avant toute chose, il a fallu extraire la liste des mots du csv pour les mettre dans un json qui sera plus facilement interprété par le programme que vous trouverez ici. Pour ce faire le code ci-dessous nous a permis d'extraire les mots-clés du CSV et de les enregistrer dans le bon format.
 ```js
-const fs = require("fs");
-const output = require("./data/output.json");
+const fs = require('fs');
+const output = require('./data/output.json');
 
 (()=> {
     fs.readFile('./data/data.csv', 'utf8', (err, data) => {
-        data.split("\n").forEach(ligne => {
-            output.push(ligne.split(";")[0]);
+        data.split('\n').forEach(ligne => {
+            output.push(ligne.split(';')[0]);
 
-            fs.writeFile("./data/output.json",
-                JSON.stringify(output, null, 1), "utf8",
+            fs.writeFile('./data/output.json',
+                JSON.stringify(output, null, 1), 'utf8',
                 (err) => {
                     if (err) { console.log(err); }
                 }
