@@ -51,6 +51,31 @@ const output = require("./data/output.json");
     })
 })();
 ```
+
+
+Le code va effectuer une recherche web sur google pour chaque mot-clé et retourner les résultats de la recherche dans le json en les rangeant par noms de domaines :
+```json
+"https://www.netflix.com": {
+  "motsClesDetectes": [
+   "H",
+   "Friends",
+   "Toc Toc ",
+   "Riverdale"
+  ],
+  "liensExacts": [
+   "https://www.netflix.com/fr/title/81270678",
+   "https://www.netflix.com/ca-fr/title/80241387",
+   "https://www.netflix.com/fr/title/70153404",
+   "https://www.netflix.com/fr/title/80233962",
+   "https://www.netflix.com/fr/title/80133311",
+   "https://www.netflix.com/ca-fr/title/80133311",
+   "https://www.netflix.com/fr/title/81270678",
+   "https://www.netflix.com/ca-fr/title/80241387"
+  ]
+```
+On sait ainsi quels noms de domaines sont associés à quels mots-clés.
+Le lien exact du résultat de la recherche est également ajouté.
+
 ## Badges
 ![js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
