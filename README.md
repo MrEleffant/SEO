@@ -1,6 +1,6 @@
 
 ![Logo](https://www.polytech-reseau.org/wp-content/uploads/2021/03/cropped-logo_reseau_Polytech.png)
-
+![Logo](https://cdn.discordapp.com/attachments/703622076363309098/1038502554654486609/Untitled.png?width=250&height=250)
 
 
 # SEO Projet DEV
@@ -76,6 +76,47 @@ Le code va effectuer une recherche web sur google pour chaque mot-clé et retour
 On sait ainsi quels noms de domaines sont associés à quels mots-clés.
 Le lien exact du résultat de la recherche est également ajouté.
 
+
+Par la suite nous avons changé le format de sauvegarde afin d'améliorer notre data set:
+```json
+ "https://www.netflix.com": [
+  {
+   "motsCles": "H",
+   "liens": "https://www.netflix.com/fr/title/81270678"
+  },
+  {
+   "motsCles": "Simon",
+   "liens": "https://www.netflix.com/fr/title/80227186"
+  },
+  {
+   "motsCles": "Turbo",
+   "liens": "https://www.netflix.com/fr/title/70267728"
+  },
+  {
+   "motsCles": "Friends",
+   "liens": "https://www.netflix.com/fr/title/70153404"
+  },
+  {
+   "motsCles": "Toc Toc ",
+   "liens": "https://www.netflix.com/fr/title/80233962"
+  },
+  {
+   "motsCles": "Riverdale",
+   "liens": "https://www.netflix.com/fr/title/80133311"
+  }
+ ]
+```
+
+Un systeme de menu a également été ajouté pour lancer les différentes fonctions
+
+![Logo](https://cdn.discordapp.com/attachments/703622076363309098/1038503223931191366/image.png)
+
+- Launche SEO : 
+    Lance les requêtes automatisés pour récupérer les data
+- Data output conversion :
+    Permet de générer le data set
+- Reset file :
+    Remettre à zero les fichiers d'output et des dataset
 ## Badges
 ![js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
