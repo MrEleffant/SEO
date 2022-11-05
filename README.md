@@ -12,15 +12,15 @@ Ce projet est  particulièrement en lien avec la difficulté SEO des mots-clés.
 
 De façon à pallier à ce problème, une possibilité de recourir directement à une analyse SERP (Search Engine Result Page) à partir des requêtes composées par les mots-clés. Cette analyse peut se faire par expertise utilisateur ou automatiquement. On se propose dans ce projet de mettre en place un outil d'analyse SERP pour la caractérisation de la difficulté SEO des mots-clés. Plusieurs points pourront être abordés:
 
-## CDC
+## Cahier des charges
 - 	Extraction d'une liste de mots-clés avec trafic associé par lecture CVS
 -	Lancement de requêtes par simulation de l'interaction utilisateur (e.g. via PyAutoGUI)
 -	Extraction des SERP (e.g. via SEOQuake)
 -	Analyse SERP par recoupement des noms de domaine et/ou classement (SemRush Rank Domain Authority)
 
-## Installation
+## Installation &Lancement
 
-
+### Installation
 ```bash
   npm install puppeteer
 ```
@@ -28,7 +28,11 @@ De façon à pallier à ce problème, une possibilité de recourir directement �
 ```bash
   npm install
 ```
-    
+
+### Lancement
+```bash
+  node .
+```
 ## Documentation
 
 Avant toute chose, il a fallu extraire la liste des mots du csv pour les mettre dans un json qui sera plus facilement interprété par le programme que vous trouverez ici. Pour ce faire le code ci-dessous nous a permis d'extraire les mots-clés du CSV et de les enregistrer dans le bon format.
@@ -117,6 +121,10 @@ Un systeme de menu a également été ajouté pour lancer les différentes fonct
     Permet de générer le data set
 - Reset file :
     Remettre à zero les fichiers d'output et des dataset
+
+
+# Visualisation
+https://mreleffant.github.io/SEO/
 ## Badges
 ![js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
