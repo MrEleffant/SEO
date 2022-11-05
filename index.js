@@ -12,7 +12,7 @@ let page; let browser
       type: 'list',
       name: 'prog',
       message: 'Select a programe',
-      choices: ['Launch SEO', 'Data output conversion', 'Reset file']
+      choices: ['Launch SEO', 'Generate data_set', 'Reset file']
     }
   ])
     .then((answers) => {
@@ -21,7 +21,7 @@ let page; let browser
           initSEO()
           break
         }
-        case 'Data output conversion': {
+        case 'Generate data_set': {
           convertData()
           break
         }
@@ -53,7 +53,7 @@ let page; let browser
                 }
                 case 'data_set': {
                   // acteurs ici les noms de domaines
-                  fs.writeFile('./data_set/node.csv', 'ID;LABEL', (err) => {
+                  fs.writeFile('./data_set/node.csv', 'ID;LABEL;MODULARITY', (err) => {
                     if (err) throw err
                     console.log('node.csv has been reset')
                   })
@@ -142,7 +142,7 @@ function writeJsonFileUTF8 (path, variable) {
 }
 
 function convertData () {
-  console.log('Creating data_set')
+  console.log('Generating data_set')
   const nodes = {
     url: [],
     liens: [],
@@ -151,11 +151,11 @@ function convertData () {
   for (const url in output) {
     output[url].forEach((research) => {
       if (!nodes.url.includes(url)) {
-        fs.appendFileSync('./data_set/node.csv', `\n${url};${url}`) // acteurs
+        fs.appendFileSync('./data_set/node.csv', `\n${url};${url};1`) // acteurs
         nodes.url.push(url)
       }
       if (!nodes.motsCles.includes(research.motsCles)) {
-        fs.appendFileSync('./data_set/node.csv', `\n${research.motsCles};${research.motsCles}`)
+        fs.appendFileSync('./data_set/node.csv', `\n${research.motsCles};${research.motsCles};2`)
         nodes.motsCles.push(research.motsCles)
       }
 
