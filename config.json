@@ -13,8 +13,8 @@
     "title": "Polytech DEV project, web scrapping and SEO"
   },
   "legend": {
-    "edgeLabel": "a",
-    "colorLabel": "a",
+    "edgeLabel": "Requêtes",
+    "colorLabel": "Mots Clés",
     "nodeLabel": "Domaines"
   },
   "features": {
