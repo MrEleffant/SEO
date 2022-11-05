@@ -1,6 +1,6 @@
 
 ![Logo](https://www.polytech-reseau.org/wp-content/uploads/2021/03/cropped-logo_reseau_Polytech.png)
-![Logo](https://cdn.discordapp.com/attachments/703622076363309098/1038502554654486609/Untitled.png?width=250&height=250)
+![Logo](https://cdn.discordapp.com/attachments/703622076363309098/1038506094911303813/Untitled.png)
 
 
 # SEO Projet DEV
