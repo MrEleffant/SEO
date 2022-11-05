@@ -21,10 +21,7 @@ De façon à pallier à ce problème, une possibilité de recourir directement �
 ## Installation &Lancement
 
 ### Installation
-```bash
-  npm install puppeteer
-```
-
+À partir du fichier `packages.json`
 ```bash
   npm install
 ```
