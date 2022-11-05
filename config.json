@@ -5,17 +5,17 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "a"
+    "text": "-"
   },
   "text": {
     "more": "a",
-    "intro": "aa",
-    "title": "a"
+    "intro": "Data visualisation",
+    "title": "Polytech DEV project, web scrapping and SEO"
   },
   "legend": {
     "edgeLabel": "a",
     "colorLabel": "a",
-    "nodeLabel": "a"
+    "nodeLabel": "Domaines"
   },
   "features": {
     "search": true,
