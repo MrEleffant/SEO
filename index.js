@@ -164,10 +164,8 @@ function convertData () {
       //   fs.appendFileSync('./data_set/node.csv', `\n${research.liens};${research.liens}`)
       //   nodes.liens.push(research.liens)
       // }
+      // fs.appendFileSync('./data_set/edge2.csv', `\n${url};${research.liens};;;${research.motsCles}`) // mot clé vers nom de domaine
 
-      fs.appendFileSync('./data_set/edge2.csv', `\n${url};${research.liens};;;${research.motsCles}`) // mot clé vers nom de domaine
-
-      // pas nécessaire pour des données plus claires
       fs.appendFileSync('./data_set/edge.csv', `\n${research.motsCles};${url};;;${research.motsCles}`) // nom de domaine vers lien
     })
   }
