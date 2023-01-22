@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer')
 const inquirer = require('inquirer')
 const fs = require('fs')
 const motsCles = require('./data/mots.json')
-const output = require('./data/output.json')
+let output = require('./data/output.json')
 let page; let browser
 
 (async () => {
@@ -95,15 +95,21 @@ async function initSEO () {
   for (const mot of motsCles) {
     await traitement(mot)
   }
+  console.log("SEO's done")
+  browser.close()
 }
 
 async function traitement (mot) {
   await wait(5000) // attente de 5 secondes entre les requêtes
+  output = require('./data/output.json')
   console.log(mot)
+
   await page.goto(`https://www.google.fr/search?q=${mot}`, { waitUntil: 'networkidle2' })
   const searchResults = await page.$$eval('.LC20lb', (els) =>
     els.map((e) => ({ title: e.innerText, link: e.parentNode.href }))
   )
+  // console.log(searchResults)
+  // let output
   searchResults.forEach((research) => {
     const domain = getDomain(research.link)
     if (!output[domain]) {
@@ -114,9 +120,10 @@ async function traitement (mot) {
         motsCles: mot,
         liens: research.link
       })
-    writeJsonFileUTF8('./data/output.json', output)
+    // write output.json
   })
-  console.log(searchResults)
+  console.log({ output })
+  writeJsonFileUTF8('./data/output.json', output)
 }
 
 function getDomain (url) {
@@ -137,8 +144,7 @@ function writeJsonFileUTF8 (path, variable) {
       if (err) {
         console.log(err)
       }
-    }
-  )
+    })
 }
 
 function convertData () {
