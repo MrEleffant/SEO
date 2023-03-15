@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/MrEleffant/SEO#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "inquirer": "^8.0.0",
+    "moz-api-wrapper": "^1.2.7",
     "nodemon": "^2.0.20",
     "puppeteer": "^19.2.1"
   },

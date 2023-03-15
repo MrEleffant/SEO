@@ -1,4 +1,5 @@
 console.log('Polytech SEO')
+require('dotenv').config()
 const puppeteer = require('puppeteer')
 const inquirer = require('inquirer')
 const fs = require('fs')
@@ -12,7 +13,7 @@ let page; let browser
       type: 'list',
       name: 'prog',
       message: 'Select a programe',
-      choices: ['Launch SEO', 'Generate data_set', 'Reset file']
+      choices: ['Launch SEO', 'Get MOZ SEO', 'Generate data_set', 'Generate csv', 'Reset file']
     }
   ])
     .then((answers) => {
@@ -21,8 +22,16 @@ let page; let browser
           initSEO()
           break
         }
+        case 'Get MOZ SEO': {
+          getMOZSEO()
+          break
+        }
         case 'Generate data_set': {
           convertData()
+          break
+        }
+        case 'Generate csv': {
+          exportDATA()
           break
         }
         case 'Reset file': {
@@ -32,7 +41,7 @@ let page; let browser
               type: 'list',
               name: 'prog',
               message: 'Select a file',
-              choices: ['mots.json', 'output.json', 'data_set']
+              choices: ['mots.json', 'output.json', 'pda.json', 'exprot.csv', 'data_set']
             }
           ])
             .then((answers) => {
@@ -45,9 +54,23 @@ let page; let browser
                   break
                 }
                 case 'output.json': {
-                  fs.writeFile('./data/output.json', '[]', (err) => {
+                  fs.writeFile('./data/output.json', '{}', (err) => {
                     if (err) throw err
                     console.log('output.json has been reset')
+                  })
+                  break
+                }
+                case 'pda.json': {
+                  fs.writeFile('./data/pda.json', '{}', (err) => {
+                    if (err) throw err
+                    console.log('output.json has been reset')
+                  })
+                  break
+                }
+                case 'export.csv': {
+                  fs.writeFile('./export/export.csv', 'DOMAIN,DA,URL,PA,MOTCLE,DIFMOTCLE', (err) => {
+                    if (err) throw err
+                    console.log('node.csv has been reset')
                   })
                   break
                 }
@@ -82,7 +105,7 @@ let page; let browser
     })
 })()
 
-async function initSEO () {
+async function initSEO() {
   console.log('Launching SEO')
   console.log(`Number of keyword : ${motsCles.length}`)
   console.log(`Estimated time : ${motsCles.length * 5} seconds`)
@@ -99,7 +122,41 @@ async function initSEO () {
   browser.close()
 }
 
-async function traitement (mot) {
+async function getMOZSEO() {
+  const Moz = require('moz-api-wrapper')
+  const pda = require('./data/pda.json')
+  console.log('Getting MOZ SEO')
+
+  const moz = new Moz({
+    accessId: process.env.ACCESS_ID,
+    secretKey: process.env.SECRET_KEY
+  })
+
+  console.log(`Getting the ${Object.keys(output).length} domains SEO`)
+  await wait(5000)
+  for (const url in output) {
+    console.log(url)
+    if (!pda[url]) {
+      moz.urlMetrics
+        .fetch(url, {
+          cols: ['Title', 'Domain Authority']
+        })
+        .then((response) => {
+          console.log(response.data.pda)
+          pda[url] = response.data.pda
+          writeJsonFileUTF8('./data/pda.json', pda)
+        })
+        .catch((error) => {
+          console.error(error)
+        })
+      await wait(3000)
+    }
+  }
+
+  console.log('SEO\'s done')
+}
+
+async function traitement(mot) {
   await wait(5000) // attente de 5 secondes entre les requêtes
   output = require('./data/output.json')
   console.log(mot)
@@ -120,24 +177,23 @@ async function traitement (mot) {
         motsCles: mot,
         liens: research.link
       })
-    // write output.json
   })
   console.log({ output })
   writeJsonFileUTF8('./data/output.json', output)
 }
 
-function getDomain (url) {
+function getDomain(url) {
   const arr = url.split('/')
   return arr[0] + '//' + arr[2]
 }
 
-async function wait (ms) {
+async function wait(ms) {
   return new Promise(resolve => {
     setTimeout(resolve, ms)
   })
 }
 
-function writeJsonFileUTF8 (path, variable) {
+function writeJsonFileUTF8(path, variable) {
   fs.writeFile(path,
     JSON.stringify(variable, null, 1), 'utf8',
     (err) => {
@@ -147,7 +203,7 @@ function writeJsonFileUTF8 (path, variable) {
     })
 }
 
-function convertData () {
+function convertData() {
   console.log('Generating data_set')
   const nodes = {
     url: [],
@@ -173,6 +229,16 @@ function convertData () {
       // fs.appendFileSync('./data_set/edge2.csv', `\n${url};${research.liens};;;${research.motsCles}`) // mot clé vers nom de domaine
 
       fs.appendFileSync('./data_set/edge.csv', `\n${research.motsCles};${url};;;${research.motsCles}`) // nom de domaine vers lien
+    })
+  }
+  console.log('data_set created')
+}
+function exportDATA() {
+  console.log('Exporting DATA')
+  for (const url in output) {
+    output[url].forEach((research) => {
+
+      fs.appendFileSync('./data_set/export.csv', `\n${research.motsCles};${url};;;${research.motsCles}`) // nom de domaine vers lien
     })
   }
   console.log('data_set created')
