@@ -41,7 +41,7 @@ let page; let browser
               type: 'list',
               name: 'prog',
               message: 'Select a file',
-              choices: ['mots.json', 'output.json', 'pda.json', 'exprot.csv', 'data_set']
+              choices: ['mots.json', 'output.json', 'pda.json', 'export.csv', 'data_set']
             }
           ])
             .then((answers) => {
@@ -234,11 +234,14 @@ function convertData () {
   console.log('data_set created')
 }
 function exportDATA () {
+  const pda = require('./data/pda.json')
   console.log('Exporting DATA')
+
   for (const url in output) {
     output[url].forEach((research) => {
-      fs.appendFileSync('./data_set/export.csv', `\n${research.motsCles};${url};;;${research.motsCles}`) // nom de domaine vers lien
+      const data = `\n${url},${pda[url]},${research.liens},,${research.motsCles},`
+      fs.appendFileSync('./export/export.csv', data) // nom de domaine vers lien
     })
   }
-  console.log('data_set created')
+  console.log('Data exported')
 }
