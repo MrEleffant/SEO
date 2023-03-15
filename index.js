@@ -105,7 +105,7 @@ let page; let browser
     })
 })()
 
-async function initSEO() {
+async function initSEO () {
   console.log('Launching SEO')
   console.log(`Number of keyword : ${motsCles.length}`)
   console.log(`Estimated time : ${motsCles.length * 5} seconds`)
@@ -122,7 +122,7 @@ async function initSEO() {
   browser.close()
 }
 
-async function getMOZSEO() {
+async function getMOZSEO () {
   const Moz = require('moz-api-wrapper')
   const pda = require('./data/pda.json')
   console.log('Getting MOZ SEO')
@@ -156,7 +156,7 @@ async function getMOZSEO() {
   console.log('SEO\'s done')
 }
 
-async function traitement(mot) {
+async function traitement (mot) {
   await wait(5000) // attente de 5 secondes entre les requêtes
   output = require('./data/output.json')
   console.log(mot)
@@ -182,18 +182,18 @@ async function traitement(mot) {
   writeJsonFileUTF8('./data/output.json', output)
 }
 
-function getDomain(url) {
+function getDomain (url) {
   const arr = url.split('/')
   return arr[0] + '//' + arr[2]
 }
 
-async function wait(ms) {
+async function wait (ms) {
   return new Promise(resolve => {
     setTimeout(resolve, ms)
   })
 }
 
-function writeJsonFileUTF8(path, variable) {
+function writeJsonFileUTF8 (path, variable) {
   fs.writeFile(path,
     JSON.stringify(variable, null, 1), 'utf8',
     (err) => {
@@ -203,7 +203,7 @@ function writeJsonFileUTF8(path, variable) {
     })
 }
 
-function convertData() {
+function convertData () {
   console.log('Generating data_set')
   const nodes = {
     url: [],
@@ -233,11 +233,10 @@ function convertData() {
   }
   console.log('data_set created')
 }
-function exportDATA() {
+function exportDATA () {
   console.log('Exporting DATA')
   for (const url in output) {
     output[url].forEach((research) => {
-
       fs.appendFileSync('./data_set/export.csv', `\n${research.motsCles};${url};;;${research.motsCles}`) // nom de domaine vers lien
     })
   }
