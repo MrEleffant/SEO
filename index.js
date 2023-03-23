@@ -239,7 +239,7 @@ function exportDATA () {
 
   for (const url in output) {
     output[url].forEach((research) => {
-      const data = `\n${url},${pda[url]},${research.liens.replace(',', '-')},,${research.motsCles.replace(',', '-')},`
+      const data = `\n${url},${pda[url]},${research.liens.replace(',', '-')},X,${research.motsCles.replace(',', '-')},X`
       fs.appendFileSync('./export/export.csv', data) // nom de domaine vers lien
     })
   }
