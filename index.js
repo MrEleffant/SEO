@@ -3,6 +3,8 @@ require('dotenv').config()
 const puppeteer = require('puppeteer')
 const inquirer = require('inquirer')
 const fs = require('fs')
+const cliProgress = require('cli-progress')
+
 const motsCles = require('./data/mots.json')
 let output = require('./data/output.json')
 let page; let browser
@@ -41,7 +43,7 @@ let page; let browser
               type: 'list',
               name: 'prog',
               message: 'Select a file',
-              choices: ['mots.json', 'output.json', 'pda.json', 'export.csv', 'data_set']
+              choices: ['mots.json', 'output.json', 'pda.json', 'pa.json', 'export.csv', 'data_set']
             }
           ])
             .then((answers) => {
@@ -63,14 +65,21 @@ let page; let browser
                 case 'pda.json': {
                   fs.writeFile('./data/pda.json', '{}', (err) => {
                     if (err) throw err
-                    console.log('output.json has been reset')
+                    console.log('pda.json has been reset')
+                  })
+                  break
+                }
+                case 'pa.json': {
+                  fs.writeFile('./data/pa.json', '{}', (err) => {
+                    if (err) throw err
+                    console.log('pa.json has been reset')
                   })
                   break
                 }
                 case 'export.csv': {
                   fs.writeFile('./export/export.csv', 'DOMAIN,DA,URL,PA,MOTCLE,DIFMOTCLE', (err) => {
                     if (err) throw err
-                    console.log('node.csv has been reset')
+                    console.log('export.csv has been reset')
                   })
                   break
                 }
@@ -125,6 +134,7 @@ async function initSEO () {
 async function getMOZSEO () {
   const Moz = require('moz-api-wrapper')
   const pda = require('./data/pda.json')
+  const pa = require('./data/pa.json')
   console.log('Getting MOZ SEO')
 
   const moz = new Moz({
@@ -134,15 +144,29 @@ async function getMOZSEO () {
 
   console.log(`Getting the ${Object.keys(output).length} domains SEO`)
   await wait(5000)
+
+  const multibar = new cliProgress.MultiBar({
+    clearOnComplete: false,
+    hideCursor: true,
+    format: ' {bar} | {filename} | {data} | {value}/{total}'
+  }, cliProgress.Presets.shades_grey)
+
+  const b1 = multibar.create(Object.keys(output).length, 0, { filename: 'Domain' })
+  const b2 = multibar.create(100, 0, { filename: 'URL' })
+
   for (const url in output) {
-    console.log(url)
+    b1.increment({
+      data: url
+    })
+    b2.update(0)
+    let b2index = 0
+
     if (!pda[url]) {
       moz.urlMetrics
         .fetch(url, {
           cols: ['Title', 'Domain Authority']
         })
         .then((response) => {
-          console.log(response.data.pda)
           pda[url] = response.data.pda
           writeJsonFileUTF8('./data/pda.json', pda)
         })
@@ -150,6 +174,26 @@ async function getMOZSEO () {
           console.error(error)
         })
       await wait(3000)
+    }
+
+    for (const page of output[url]) {
+      b2.update((++b2index * 100 / output[url].length), {
+        data: page.liens
+      })
+      if (!pa[page.liens]) {
+        moz.urlMetrics
+          .fetch(page.liens, {
+            cols: ['Page Authority']
+          })
+          .then((response) => {
+            pa[page.liens] = response.data.upa
+            writeJsonFileUTF8('./data/pa.json', pa)
+          })
+          .catch((error) => {
+            console.error(error)
+          })
+        await wait(3000)
+      }
     }
   }
 
@@ -235,11 +279,12 @@ function convertData () {
 }
 function exportDATA () {
   const pda = require('./data/pda.json')
+  const pa = require('./data/pa.json')
   console.log('Exporting DATA')
 
   for (const url in output) {
     output[url].forEach((research) => {
-      const data = `\n${url},${pda[url]},${research.liens.replace(',', '-')},X,${research.motsCles.replace(',', '-')},X`
+      const data = `\n${url},${pda[url]},${research.liens.replace(',', '-')},${pa[research.liens] || ''},${research.motsCles.replace(',', '-')},X`
       fs.appendFileSync('./export/export.csv', data) // nom de domaine vers lien
     })
   }
