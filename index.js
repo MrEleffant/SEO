@@ -77,7 +77,7 @@ let page; let browser
                   break
                 }
                 case 'export.csv': {
-                  fs.writeFile('./export/export.csv', 'DOMAIN,DA,URL,PA,MOTCLE,DIFMOTCLE', (err) => {
+                  fs.writeFile('./export/export.csv', 'CLE,DOMAIN,DA,URL,PA,MOTCLE,DIFMOTCLE', (err) => {
                     if (err) throw err
                     console.log('export.csv has been reset')
                   })
@@ -284,7 +284,14 @@ function exportDATA () {
 
   for (const url in output) {
     output[url].forEach((research) => {
-      const data = `\n${url},${pda[url]},${research.liens.replace(',', '-')},${pa[research.liens] || ''},${research.motsCles.replace(',', '-')},X`
+      let lien = research.liens
+
+      lien = lien.toString()
+      while (lien.includes(',')) {
+        lien = lien.replace(',', '')
+      }
+      const CLE = url.replace(',', '').replace('https://', '').replace('http://', '')
+      const data = `\n${CLE},${url.replace(',', '')},${pda[url]},${lien},${pa[research.liens] || ''},${research.motsCles.replace(',', '-')},Null`
       fs.appendFileSync('./export/export.csv', data) // nom de domaine vers lien
     })
   }
