@@ -1,6 +1,6 @@
 
-![Logo](https://www.polytech-reseau.org/wp-content/uploads/2021/03/cropped-logo_reseau_Polytech.png)
-![Logo](https://cdn.discordapp.com/attachments/703622076363309098/1038506423254012075/Untitled.png)
+![LogoPolytech](https://www.polytech-reseau.org/wp-content/uploads/2021/03/cropped-logo_reseau_Polytech.png)
+![visualisation](https://cdn.discordapp.com/attachments/703622076363309098/1038506423254012075/Untitled.png)
 
 
 # SEO Projet DEV
@@ -18,9 +18,11 @@ De façon à pallier à ce problème, une possibilité de recourir directement �
 -	Extraction des SERP (e.g. via SEOQuake)
 -	Analyse SERP par recoupement des noms de domaine et/ou classement (SemRush Rank Domain Authority)
 
-## Installation &Lancement
+## Installation & Lancement
 
 ### Installation
+> requiert node.js
+
 À partir du fichier `packages.json`
 ```bash
   npm install
@@ -73,6 +75,7 @@ Le code va effectuer une recherche web sur google pour chaque mot-clé et retour
    "https://www.netflix.com/fr/title/81270678",
    "https://www.netflix.com/ca-fr/title/80241387"
   ]
+}
 ```
 On sait ainsi quels noms de domaines sont associés à quels mots-clés.
 Le lien exact du résultat de la recherche est également ajouté.
@@ -110,19 +113,18 @@ Par la suite nous avons changé le format de sauvegarde afin d'améliorer notre 
 
 Un systeme de menu a également été ajouté pour lancer les différentes fonctions
 
-![Logo](https://cdn.discordapp.com/attachments/703622076363309098/1038503223931191366/image.png)
+![imageMenu](https://cdn.discordapp.com/attachments/1046446625146540063/1091284707922157669/image.png)
 
 - Launche SEO : 
     Lance les requêtes automatisés pour récupérer les data
-- Data output conversion :
-    Permet de générer le data set
+- Get MOZ SEO :
+    Lance les requêtes automatisés pour récupérer les data de MOZ
+- Generate data_set :
+    Permet de générer le data set pour gephi
+- Generate csv : 
+    Permet de générer le csv concatenant toutes les données pour Power BI
 - Reset file :
     Remettre à zero les fichiers d'output et des dataset
 
-
 # Visualisation
 https://mreleffant.github.io/SEO/
-## Badges
-![js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-
-![js](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
