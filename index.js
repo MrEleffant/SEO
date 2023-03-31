@@ -2,7 +2,6 @@
  * @file index.js
  * @description Main file of the project
  */
-
 console.log(`\n 
  .d8888b.  8888888888  .d88888b.  
 d88P  Y88b 888        d88P" "Y88b 
