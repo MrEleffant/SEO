@@ -224,8 +224,7 @@ async function traitement (mot) {
   const searchResults = await page.$$eval('.LC20lb', (els) =>
     els.map((e) => ({ title: e.innerText, link: e.parentNode.href }))
   )
-  // console.log(searchResults)
-  // let output
+
   searchResults.forEach((research) => {
     const domain = getDomain(research.link)
     if (!output[domain]) {
