@@ -2,7 +2,8 @@
  * @file index.js
  * @description Main file of the project
  */
-console.log(`\n 
+
+console.log(`\n
  .d8888b.  8888888888  .d88888b.  
 d88P  Y88b 888        d88P" "Y88b 
 Y88b.      888        888     888 
@@ -279,18 +280,12 @@ function convertData () {
         nodes.motsCles.push(research.motsCles)
       }
 
-      // pas nécessaire pour des données plus claires
-      // if (!nodes.liens.includes(research.liens)) {
-      //   fs.appendFileSync('./data_set/node.csv', `\n${research.liens};${research.liens}`)
-      //   nodes.liens.push(research.liens)
-      // }
-      // fs.appendFileSync('./data_set/edge2.csv', `\n${url};${research.liens};;;${research.motsCles}`) // mot clé vers nom de domaine
-
       fs.appendFileSync('./data_set/edge.csv', `\n${research.motsCles};${url};;;${research.motsCles}`) // nom de domaine vers lien
     })
   }
   console.log('data_set created')
 }
+
 function exportDATA () {
   const pda = require('./data/pda.json')
   const pa = require('./data/pa.json')
