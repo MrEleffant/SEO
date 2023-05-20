@@ -25,6 +25,11 @@ let output = require('./data/output.json')
 let page; let browser
 
 (async () => {
+
+
+  concateData()
+
+  return
   inquirer.prompt([
     {
       type: 'list',
@@ -48,7 +53,28 @@ let page; let browser
           break
         }
         case 'Generate csv': {
-          exportDATA()
+          inquirer.prompt([
+            {
+              type: 'list',
+              name: 'prog',
+              message: 'Select a program',
+              choices: ['exportDATA', 'Concatenate output initial file']
+            }
+          ])
+            .then((answers) => {
+              switch (answers.prog) {
+                case 'exportDATA': {
+                  exportDATA()
+                  break
+                }
+
+                case 'Concatenate output initial file': {
+                  concateData()
+                  break
+                }
+              }
+            })
+
           break
         }
         case 'Reset file': {
@@ -58,7 +84,7 @@ let page; let browser
               type: 'list',
               name: 'prog',
               message: 'Select a file',
-              choices: ['mots.json', 'output.json', 'pda.json', 'pa.json', 'export.csv', 'data_set']
+              choices: ['mots.json', 'output.json', 'pda.json', 'pa.json', 'csv Exports', 'data_set']
             }
           ])
             .then((answers) => {
@@ -91,11 +117,34 @@ let page; let browser
                   })
                   break
                 }
-                case 'export.csv': {
-                  fs.writeFile('./export/export.csv', 'CLE,DOMAIN,DA,URL,PA,MOTCLE,DIFMOTCLE', (err) => {
-                    if (err) throw err
-                    console.log('export.csv has been reset')
-                  })
+                case 'csv Exports': {
+                  inquirer.prompt([
+                    {
+                      type: 'list',
+                      name: 'prog',
+                      message: 'Select a file',
+                      choices: ['export.csv', 'AnalyseOUTPUT.csv']
+                    }
+                  ])
+                    .then((answers) => {
+                      switch (answers.prog) {
+                        case 'export.csv': {
+                          fs.writeFile('./export/export.csv', 'CLE,DOMAIN,DA,URL,PA,MOTCLE,DIFMOTCLE', (err) => {
+                            if (err) throw err
+                            console.log('export.csv has been reset')
+                          })
+                          break
+                        }
+
+                        case 'AnalyseOUTPUT.csv': {
+                          fs.writeFile('./export/AnalyseOutput.csv', 'Domaine;SEMrushRank;MoyenneClassementGooogle;Frequence;PA;MatchedDomain', (err) => {
+                            if (err) throw err
+                            console.log('export.csv has been reset')
+                          })
+                          break
+                        }
+                      }
+                    })
                   break
                 }
                 case 'data_set': {
@@ -129,7 +178,7 @@ let page; let browser
     })
 })()
 
-async function initSEO () {
+async function initSEO() {
   console.log('Launching SEO')
   console.log(`Number of keyword : ${motsCles.length}`)
   console.log(`Estimated time : ${motsCles.length * 5} seconds`)
@@ -146,7 +195,7 @@ async function initSEO () {
   browser.close()
 }
 
-async function getMOZSEO () {
+async function getMOZSEO() {
   const Moz = require('moz-api-wrapper')
   const pda = require('./data/pda.json')
   const pa = require('./data/pa.json')
@@ -215,7 +264,7 @@ async function getMOZSEO () {
   console.log('SEO\'s done')
 }
 
-async function traitement (mot) {
+async function traitement(mot) {
   await wait(5000) // attente de 5 secondes entre les requêtes
   output = require('./data/output.json')
   console.log(mot)
@@ -240,18 +289,18 @@ async function traitement (mot) {
   writeJsonFileUTF8('./data/output.json', output)
 }
 
-function getDomain (url) {
+function getDomain(url) {
   const arr = url.split('/')
   return arr[0] + '//' + arr[2]
 }
 
-async function wait (ms) {
+async function wait(ms) {
   return new Promise(resolve => {
     setTimeout(resolve, ms)
   })
 }
 
-function writeJsonFileUTF8 (path, variable) {
+function writeJsonFileUTF8(path, variable) {
   fs.writeFile(path,
     JSON.stringify(variable, null, 1), 'utf8',
     (err) => {
@@ -261,7 +310,7 @@ function writeJsonFileUTF8 (path, variable) {
     })
 }
 
-function convertData () {
+function convertData() {
   console.log('Generating data_set')
   const nodes = {
     url: [],
@@ -285,7 +334,7 @@ function convertData () {
   console.log('data_set created')
 }
 
-function exportDATA () {
+function exportDATA() {
   const pda = require('./data/pda.json')
   const pa = require('./data/pa.json')
   console.log('Exporting DATA')
@@ -304,4 +353,41 @@ function exportDATA () {
     })
   }
   console.log('Data exported')
+}
+
+function concateData() {
+  fs.writeFile('./export/AnalyseOutput.csv', 'Domaine;SEMrushRank;MoyenneClassementGooogle;Frequence;PA;MatchedDomain', (err) => {
+    if (err) throw err
+    console.log('export.csv has been reset')
+  })
+
+  const da = require('./data/pda.json')
+  fs.readFile('./export/AnalyseInput.csv', 'utf8', (_err, data) => {
+    data.split('\n').forEach(ligne => {
+      if (ligne.includes('Domaine;SEMrushRank;MoyenneClassementGooogle;Frequence')) {
+        return
+      }
+
+      const url = ligne.split(';')[0]
+
+      // loop threw every da and find the one that match the most and save the da or null
+      let daSave = null
+      let domainSave = null
+      for (const domaine in da) {
+        if (domaine.includes(url)) {
+          if (!da) {
+            daSave = da[domaine]
+            domainSave = domaine
+          } else if (da[domaine] > daSave) {
+            daSave = da[domaine]
+            domainSave = domaine
+          }
+        }
+      }
+
+      const urlLine = `\n${ligne.replace('\r', '')};${daSave};${domainSave}`
+
+      fs.appendFileSync('./export/AnalyseOutput.csv', urlLine) // nom de domaine vers lien
+    })
+  })
 }
