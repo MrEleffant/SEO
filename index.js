@@ -25,11 +25,6 @@ let output = require('./data/output.json')
 let page; let browser
 
 (async () => {
-
-
-  concateData()
-
-  return
   inquirer.prompt([
     {
       type: 'list',
@@ -137,7 +132,7 @@ let page; let browser
                         }
 
                         case 'AnalyseOUTPUT.csv': {
-                          fs.writeFile('./export/AnalyseOutput.csv', 'Domaine;SEMrushRank;MoyenneClassementGooogle;Frequence;PA;MatchedDomain', (err) => {
+                          fs.writeFile('./export/AnalyseOutput.csv', 'Domaine;SEMrushRank;MoyenneClassementGooogle;Frequence;DA;MatchedDomain', (err) => {
                             if (err) throw err
                             console.log('export.csv has been reset')
                           })
@@ -178,7 +173,7 @@ let page; let browser
     })
 })()
 
-async function initSEO() {
+async function initSEO () {
   console.log('Launching SEO')
   console.log(`Number of keyword : ${motsCles.length}`)
   console.log(`Estimated time : ${motsCles.length * 5} seconds`)
@@ -195,7 +190,7 @@ async function initSEO() {
   browser.close()
 }
 
-async function getMOZSEO() {
+async function getMOZSEO () {
   const Moz = require('moz-api-wrapper')
   const pda = require('./data/pda.json')
   const pa = require('./data/pa.json')
@@ -264,7 +259,7 @@ async function getMOZSEO() {
   console.log('SEO\'s done')
 }
 
-async function traitement(mot) {
+async function traitement (mot) {
   await wait(5000) // attente de 5 secondes entre les requêtes
   output = require('./data/output.json')
   console.log(mot)
@@ -289,18 +284,18 @@ async function traitement(mot) {
   writeJsonFileUTF8('./data/output.json', output)
 }
 
-function getDomain(url) {
+function getDomain (url) {
   const arr = url.split('/')
   return arr[0] + '//' + arr[2]
 }
 
-async function wait(ms) {
+async function wait (ms) {
   return new Promise(resolve => {
     setTimeout(resolve, ms)
   })
 }
 
-function writeJsonFileUTF8(path, variable) {
+function writeJsonFileUTF8 (path, variable) {
   fs.writeFile(path,
     JSON.stringify(variable, null, 1), 'utf8',
     (err) => {
@@ -310,7 +305,7 @@ function writeJsonFileUTF8(path, variable) {
     })
 }
 
-function convertData() {
+function convertData () {
   console.log('Generating data_set')
   const nodes = {
     url: [],
@@ -334,7 +329,7 @@ function convertData() {
   console.log('data_set created')
 }
 
-function exportDATA() {
+function exportDATA () {
   const pda = require('./data/pda.json')
   const pa = require('./data/pa.json')
   console.log('Exporting DATA')
@@ -355,12 +350,7 @@ function exportDATA() {
   console.log('Data exported')
 }
 
-function concateData() {
-  fs.writeFile('./export/AnalyseOutput.csv', 'Domaine;SEMrushRank;MoyenneClassementGooogle;Frequence;PA;MatchedDomain', (err) => {
-    if (err) throw err
-    console.log('export.csv has been reset')
-  })
-
+function concateData () {
   const da = require('./data/pda.json')
   fs.readFile('./export/AnalyseInput.csv', 'utf8', (_err, data) => {
     data.split('\n').forEach(ligne => {
